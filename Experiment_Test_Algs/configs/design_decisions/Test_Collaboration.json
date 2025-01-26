@@ -1,0 +1,6 @@
+{
+    "env_list": ["Mode2_Mediator1_05_high3", "Mode2_Mediator5_05_high3"],
+    "n": 25,
+    "rep": 1000,
+    "algorithm_list": "shared_algorithm_test_collaboration.json"
+}

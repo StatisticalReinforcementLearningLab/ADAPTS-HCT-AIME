@@ -1,0 +1,58 @@
+{
+    "n": 100,
+    "rep": 63,
+    "seed": 1,
+    "softmax_tem": 100,
+    "treatments": [
+        0.05,
+        0.05,
+        0.05,
+        0.05
+    ],
+    "mediator": 0,
+    "algs": {
+        "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000": [
+            {
+                "class": "OptPolicy",
+                "parameters": {
+                    "rep": 1000,
+                    "optimal_policy": "only_first_six_features"
+                }
+            },
+            {
+                "class": "OptPolicy",
+                "parameters": {
+                    "rep": 1000,
+                    "optimal_policy": "only_first_six_features"
+                }
+            },
+            {
+                "class": "OptPolicy",
+                "parameters": {
+                    "rep": 1000,
+                    "optimal_policy": "only_first_six_features"
+                }
+            }
+        ],
+        "MRT0": [
+            {
+                "class": "MRT",
+                "parameters": {
+                    "p": 0
+                }
+            },
+            {
+                "class": "MRT",
+                "parameters": {
+                    "p": 0
+                }
+            },
+            {
+                "class": "MRT",
+                "parameters": {
+                    "p": 0
+                }
+            }
+        ]
+    }
+}

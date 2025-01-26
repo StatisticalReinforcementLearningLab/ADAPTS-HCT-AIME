@@ -1,0 +1,1439 @@
+{
+  "MRT": [
+
+    {
+      "class": "MRT",
+      "parameters": {}
+    },
+    {
+      "class": "MRT",
+      "parameters": {}
+    },
+    {
+      "class": "MRT",
+      "parameters": {}
+    }
+  ],
+  "MRT00": [
+    {
+      "class": "MRT",
+      "parameters": {"p": 0.0}
+    },
+    {
+      "class": "MRT",
+      "parameters": {"p": 0.0}
+    },
+    { 
+      "class": "MRT",
+      "parameters": {"p": 0.0}
+    }
+  ],
+  "MRT06": [
+    {
+      "class": "MRT",
+      "parameters": {"p": 0.6}
+    },
+    {
+      "class": "MRT",
+      "parameters": {"p": 0.6}
+    },
+    {
+      "class": "MRT",
+      "parameters": {"p": 0.6}
+    }
+  ],
+  "MRT07": [
+    {
+      "class": "MRT",
+      "parameters": {"p": 0.7}
+    },
+    {
+      "class": "MRT",
+      "parameters": {"p": 0.7}
+    },
+    {
+      "class": "MRT",
+      "parameters": {"p": 0.7}
+    }
+  ],
+  "RLSVI_Inf_RwdNaive_NoPool_Sigm0.5_Lambd0.75": [
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": false,
+        "update": 5,
+        "reward_type": "naive",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": false,
+        "update": 5,
+        "reward_type": "naive",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 5,
+          "reward_type": "delayed0",
+          "sigma": 0.5,
+          "lambda_": 0.75,
+          "delayed_weight": 0.2
+        }
+      }
+  ],
+  "RLSVI_Inf_RwdNaive_Pool_Sigm0.5_Lambd0.75_HighDelay": [
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "reward_type": "naive",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "reward_type": "naive",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 5,
+          "reward_type": "delayed0",
+          "sigma": 0.5,
+          "lambda_": 0.75,
+          "delayed_weight": 0.8
+        }
+      }
+  ],
+  "RLSVI_Inf_RwdMediator_NoPool_Sigm0.5_Lambd0.75": [
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": false,
+        "update": 5,
+        "reward_type": "mediator",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": false,
+        "update": 5,
+        "reward_type": "mediator",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 5,
+          "reward_type": "delayed",
+          "sigma": 0.5,
+          "lambda_": 0.75,
+          "delayed_weight": 0.2
+        }
+      }
+  ],
+
+  "RLSVI_Inf_RwdNaive_Pool_Sigm0.5_Lambd0.75": [
+
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "reward_type": "naive",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "reward_type": "naive",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 5,
+          "reward_type": "delayed0",
+          "sigma": 0.5,
+          "lambda_": 0.75,
+          "delayed_weight": 0.2
+        }
+      }
+  ],
+  "RLSVI_Inf_Gamma_0.5": [
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "reward_type": "naive",
+        "sigma": 0.5,
+        "gamma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "reward_type": "naive",
+        "sigma": 0.5,
+        "gamma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 5,
+          "reward_type": "delayed0",
+          "sigma": 0.5,
+          "lambda_": 0.75,
+          "delayed_weight": 0.2
+        }
+      }
+  ],
+  "RLSVI_Inf_RwdMixed_Pool_Sigm0.5_Lambd0.75": [
+
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "reward_type": "mixed",
+        "delayed_weight": 0,
+        "naive_weight": 1,
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "reward_type": "mixed",
+        "delayed_weight": 0,
+        "naive_weight": 1,
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 5,
+          "reward_type": "mixed",
+          "sigma": 0.5,
+          "lambda_": 0.75,
+          "delayed_weight": 0.8,
+          "naive_weight": 1
+        }
+      }
+  ],
+  "RLSVI_Inf_RwdMediator_Pool_Sigm0.5_Lambd0.75": [
+
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "reward_type": "mediator",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "reward_type": "mediator",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 5,
+          "reward_type": "delayed",
+          "sigma": 0.5,
+          "lambda_": 0.75,
+          "delayed_weight": 0.2
+        }
+      }
+  ],
+  "Bayes_RwdNaive_Pool_Sigm0.1_Lambd5_Prior5": [
+
+    {
+      "class": "Bayes",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 1,
+          "reward_type": "naive",
+          "sigma": 0.1,
+          "lambda_": 5,
+          "softmax": 10,
+          "prior_weight": 5
+        }
+      },
+    {
+      "class": "Bayes",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 1,
+          "reward_type": "naive",
+          "sigma": 0.1,
+          "lambda_": 5,
+          "softmax": 10,
+          "prior_weight": 5
+        }
+      },
+      {
+        "class": "Bandit",
+        "parameters": {
+            "poolAcrossDyads": true,
+            "update": 5,
+            "reward_type": "delayed0",
+            "sigma": 0.5,
+            "lambda_": 0.75,
+            "delayed_weight": 0.2
+          }
+        }
+  ],
+  "Bayes_RwdMediator_Pool_Sigm0.1_Lambd5_Prior5": [
+
+    {
+      "class": "Bayes",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 1,
+          "reward_type": "mediator",
+          "sigma": 0.1,
+          "lambda_": 5,
+          "softmax": 10,
+          "prior_weight": 5
+        }
+      },
+    {
+      "class": "Bayes",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 1,
+          "reward_type": "mediator",
+          "sigma": 0.1,
+          "lambda_": 5,
+          "softmax": 10,
+          "prior_weight": 5
+        }
+      },
+      {
+        "class": "Bandit",
+        "parameters": {
+            "poolAcrossDyads": true,
+            "update": 5,
+            "reward_type": "delayed",
+            "sigma": 0.5,
+            "lambda_": 0.75,
+            "delayed_weight": 0.2
+          }
+        }
+  ],
+  "RLSVI_Finite_RwdNaive_NoPool_Sigm0.5_Lambda0.75": [
+
+    {
+      "class": "RLSVIH",
+      "parameters": {
+        "poolAcrossDyads": false,
+        "update": 5,
+        "reward_type": "naive",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "RLSVIH",
+      "parameters": {
+        "poolAcrossDyads": false,
+        "update": 5,
+        "reward_type": "naive",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 5,
+          "reward_type": "delayed0",
+          "sigma": 0.5,
+          "lambda_": 0.75,
+          "delayed_weight": 0.2
+        }
+      }
+  ],
+  "RLSVI_Finite_RwdNaive_Pool_Sigm0.5_Lambda0.75": [
+
+    {
+      "class": "RLSVIH",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "reward_type": "naive",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "RLSVIH",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "reward_type": "naive",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 5,
+          "reward_type": "delayed0",
+          "sigma": 0.5,
+          "lambda_": 0.75,
+          "delayed_weight": 0.2
+        }
+      }
+  ],
+  "RLSVI_Finite_RwdMediator_NoPool_Sigm0.5_Lambda0.75": [
+
+    {
+      "class": "RLSVIH",
+      "parameters": {
+        "poolAcrossDyads": false,
+        "update": 5,
+        "reward_type": "mediator",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "RLSVIH",
+      "parameters": {
+        "poolAcrossDyads": false,
+        "update": 5,
+        "reward_type": "mediator",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 5,
+          "reward_type": "delayed",
+          "sigma": 0.5,
+          "lambda_": 0.75,
+          "delayed_weight": 0.2
+        }
+      }
+  ],
+  "RLSVI_Finite_RwdMediator_Pool_Sigm0.5_Lambda0.75": [
+
+    {
+      "class": "RLSVIH",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "reward_type": "mediator",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "RLSVIH",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "reward_type": "mediator",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 5,
+          "reward_type": "delayed",
+          "sigma": 0.5,
+          "lambda_": 0.75,
+          "delayed_weight": 0.2
+        }
+      }
+  ],
+  "Bandit_Delayed_RwdMediator_Pool_Sigm0.5_Lambda0.75": [
+
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "gamma": 0,
+        "update": 5,
+        "reward_type": "delayed",
+        "delayed_weight": 0.2,
+        "sigma": 0.5,
+        "lambda_": 0.75
+
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "gamma": 0,
+        "update": 5,
+        "reward_type": "delayed",
+        "delayed_weight": 0.2,
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 5,
+          "reward_type": "delayed",
+          "sigma": 0.5,
+          "lambda_": 0.75,
+          "delayed_weight": 0.2
+        }
+      }
+  ],
+  "Bandit_RwdNaive_Pool_Sigm0.5_Lambda0.75":[
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "gamma": 0,
+        "update": 5,
+        "reward_type": "naive",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "gamma": 0,
+        "update": 5,
+        "reward_type": "naive",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 5,
+          "reward_type": "naive",
+          "sigma": 0.5,
+          "lambda_": 0.75
+        }
+      }
+  ],
+  "Bandit_Delayed_RwdNaive_Pool_Sigm0.5_Lambda0.75": [
+
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "gamma": 0,
+        "update": 5,
+        "reward_type": "delayed0",
+        "delayed_weight": 0.2,
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "gamma": 0,
+        "update": 5,
+        "reward_type": "delayed0",
+        "delayed_weight": 0.2,
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 5,
+          "reward_type": "delayed0",
+          "sigma": 0.5,
+          "lambda_": 0.75,
+          "delayed_weight": 0.2
+        }
+      }
+  ],
+  "Bandit_Delayed_RwdNaive_NoPool_Sigm0.5_Lambda0.75": [
+
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": false,
+        "gamma": 0,
+        "update": 5,
+        "reward_type": "delayed0",
+        "delayed_weight": 0.2,
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": false,
+        "gamma": 0,
+        "update": 5,
+        "reward_type": "delayed0",
+        "delayed_weight": 0.2,
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 5,
+          "reward_type": "delayed0",
+          "sigma": 0.5,
+          "lambda_": 0.75,
+          "delayed_weight": 0.2
+        }
+      }
+  ],
+"Bandit_Delayed_RwdMediator_NoPool_Sigm0.5_Lambda0.75": [
+  {
+    "class": "Bandit",
+    "parameters": {
+      "poolAcrossDyads": false,
+      "gamma": 0,
+      "update": 5,
+      "reward_type": "delayed",
+      "delayed_weight": 0.2,
+      "sigma": 0.5,
+      "lambda_": 0.75
+    }
+  },
+  {
+    "class": "Bandit",
+    "parameters": {
+      "poolAcrossDyads": false,
+      "gamma": 0,
+      "update": 5,
+      "reward_type": "delayed",
+      "delayed_weight": 0.2,
+      "sigma": 0.5,
+      "lambda_": 0.75
+    }
+  },
+  {
+    "class": "Bandit",
+    "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "reward_type": "delayed",
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "delayed_weight": 0.2
+      }
+    }
+],
+"SingleAgent_Gamma0.5": [
+  {
+    "class": "SingleAgent",
+    "parameters": {
+      "update": 10,
+      "poolAcrossDyads": true,
+      "reward_type": "naive",
+      "sigma": 0.5,
+      "lambda_": 0.75,
+      "gamma": 0.5,
+      "save_coefficients": false
+    }
+  },
+  {
+    "class": "SingleAgent",
+    "parameters": {
+      "update": 10,
+      "poolAcrossDyads": true,
+      "reward_type": "naive",
+      "sigma": 0.5,
+      "lambda_": 0.75,
+      "gamma": 0.5,
+      "save_coefficients": false
+    }
+  },
+  {
+    "class": "SingleAgent",
+    "parameters": {
+      "update": 10,
+      "poolAcrossDyads": true,
+      "reward_type": "delayed0",
+      "sigma": 0.5,
+      "lambda_": 0.75,
+      "save_coefficients": false
+    }
+  }
+  ],
+"SingleAgent_RwdNaive_Pool_Sigm0.5_Lambda0.75": [
+  {
+    "class": "SingleAgent",
+    "parameters": {
+      "update": 10,
+      "poolAcrossDyads": true,
+      "reward_type": "naive",
+      "sigma": 0.5,
+      "lambda_": 0.75
+    }
+  },
+  {
+    "class": "SingleAgent",
+    "parameters": {
+      "update": 10,
+      "poolAcrossDyads": true,
+      "reward_type": "naive",
+      "sigma": 0.5,
+      "lambda_": 0.75
+    }
+  },
+  {
+    "class": "SingleAgent",
+    "parameters": {
+      "update": 10,
+      "poolAcrossDyads": true,
+      "reward_type": "delayed0",
+      "sigma": 0.5,
+      "lambda_": 0.75
+    }
+  }
+  ],
+  "SingleAgent_RwdNaive_NoPool_Sigm0.5_Lambda0.75": [
+    {
+      "class": "SingleAgent",
+      "parameters": {
+        "update": 10,
+        "poolAcrossDyads": false,
+        "reward_type": "naive",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+  },
+  {
+    "class": "SingleAgent",
+    "parameters": {
+      "update": 10,
+      "poolAcrossDyads": false,
+      "reward_type": "naive",
+      "sigma": 0.5,
+      "lambda_": 0.75
+    }
+  },
+  {
+    "class": "SingleAgent",
+    "parameters": {
+      "update": 10,
+      "poolAcrossDyads": true,
+      "reward_type": "delayed0",
+      "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    }
+  ],
+  "RewardLearning_RwdNaive_Pool_Sigm0.5_Lambda0.75_RwdLambda2": [
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 2
+      }
+    },
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 2
+      }
+    },
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 2
+      }
+    }
+  ],
+  "RewardLearning_RwdNaive_Pool_Sigm0.5_Lambda0.75_RwdLambda0.75": [
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.75
+      }
+    },
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.75
+      }
+    },
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.75
+      }
+    }
+  ],
+  "RewardLearning_RwdNaive_Pool_Sigm0.5_Lambda0.75_RwdLambda0.75_NextWeekWeight1": [
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.75
+      }
+    },
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.75
+      }
+    },
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.75,
+        "next_week_weight": 1
+      }
+    }
+  ],
+  "RewardLearning_RwdNaive_Pool_Sigm0.5_Lambda0.75_RwdLambda0.75_NextWeekWeight1_CareMediator": [
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.75
+      }
+    },
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.75,
+        "care_mediator_weight": 1
+      }
+    },
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.75,
+        "next_week_weight": 1
+      }
+    }
+  ],
+  "RewardLearning_Gamma_0.1": [
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.75,
+        "gamma": 0.1
+      }
+    },
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "care_learning": false,
+        "reward_type": "delayed",
+        "delayed_weight": 0,
+        "naive_weight": 1,
+        "gamma": 0.1
+      }
+    },
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.75,
+        "next_week_weight": 1
+      }
+    }
+  ],
+  "RewardLearning_Gamma_0.3": [
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.75,
+        "gamma": 0.3
+      }
+    },
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "care_learning": false,
+        "reward_type": "delayed",
+        "delayed_weight": 0,
+        "naive_weight": 1,
+        "gamma": 0.3
+      }
+    },
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.75,
+        "next_week_weight": 1
+      }
+    }
+  ],
+  "RewardLearning_Gamma_0.5": [
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.75,
+        "gamma": 0.5
+      }
+    },
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "care_learning": false,
+        "reward_type": "delayed",
+        "delayed_weight": 0,
+        "naive_weight": 1,
+        "gamma": 0.5
+      }
+    },
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.75,
+        "next_week_weight": 1
+      }
+    }
+  ],
+  "RewardLearning_RwdNaive_Pool_Sigm0.5_Lambda0.75_RwdLambda0.75_NextWeekWeight1_CareNoLearning": [
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.75
+      }
+    },
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "care_learning": false,
+        "reward_type": "delayed",
+        "delayed_weight": 0,
+        "naive_weight": 1
+      }
+    },
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.75,
+        "next_week_weight": 1
+      }
+    }
+  ],
+"RewardLearning_RwdNaive_Pool_Sigm0.5_Lambda0.75_RwdLambda0.75_NextWeekWeight1_UsePrior": [
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.75
+      }
+    },
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "care_learning": false,
+        "reward_type": "delayed",
+        "delayed_weight": 0,
+        "naive_weight": 1
+      }
+    },
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.75,
+        "next_week_weight": 1,
+        "use_prior": true
+      }
+    }
+  ],
+"RewardLearning_RwdNaive_Pool_Sigm0.5_Lambda0.75_RwdLambda1": [
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 1
+      }
+    },
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 1
+      }
+    },
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 1
+      }
+    }
+  ],
+  "RewardLearning_RwdNaive_Pool_Sigm0.5_Lambda0.75_RwdLambda0.2": [
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.2
+      }
+    },
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.2
+      }
+    },
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.2
+      }
+    }
+  ],
+  "RewardLearning":[
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.2,
+        "gamma": 0.5,
+        "save_coefficients": true
+      }
+    },
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.2,
+        "gamma": 0.5,
+        "use_prior": true,
+        "save_param": false,
+        "save_coefficients": true
+      }
+    },
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.2,
+        "next_week_weight": 1,
+        "use_prior": true,
+        "save_param": false,
+        "save_coefficients": true
+      }
+    }
+  ],
+"RewardLearningNewCare":[
+    {
+      "class": "RewardLearningNewCare",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.2,
+        "gamma": 0.5
+      }
+    },
+    {
+      "class": "RewardLearningNewCare",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.2,
+        "gamma": 0.5,
+        "use_prior": true,
+        "save_param": false
+      }
+    },
+    {
+      "class": "RewardLearningNewCare",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.2,
+        "next_week_weight": 1,
+        "use_prior": true,
+        "save_param": false  
+      }
+    }
+  ],
+"RewardLearningLocal":[
+    {
+      "class": "RewardLearningLocal",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 2,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.2,
+        "gamma": 0.5
+      }
+    },
+    {
+      "class": "RewardLearningLocal",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 2,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.2,
+        "gamma": 0.5,
+        "use_prior": false,
+        "save_param": true
+      }
+    },
+    {
+      "class": "RewardLearningLocal",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 2,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.2,
+        "next_week_weight": 1,
+        "use_prior": false,
+        "save_param": true  
+      }
+    }
+  ],
+  "RewardLearningEvaluatePolicy":[
+    {
+      "class": "RewardLearningLocal",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 200,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.2,
+        "gamma": 0.5,
+        "save_coefficients": true
+      }
+    },
+    {
+      "class": "RewardLearningLocal",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 200,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.2,
+        "gamma": 0.5,
+        "use_prior": true,
+        "save_param": true,
+        "save_coefficients": true
+      }
+    },
+    {
+      "class": "RewardLearningLocal",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 200,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.2,
+        "next_week_weight": 1,
+        "use_prior": true,
+        "save_param": true,
+        "save_coefficients": true
+      }
+    }
+  ],
+"SingleAgentEvaluatePolicy":[
+  {
+    "class": "SingleAgent",
+    "parameters": {
+      "update": 200,
+      "poolAcrossDyads": true,
+      "reward_type": "naive",
+      "sigma": 0.5,
+      "gamma": 0.5,
+      "lambda_": 0.75,
+      "save_coefficients": true
+    }
+  },
+  {
+    "class": "SingleAgent",
+    "parameters": {
+      "update": 200,
+      "poolAcrossDyads": true,
+      "reward_type": "naive",
+      "sigma": 0.5, 
+      "gamma": 0.5,
+      "lambda_": 0.75,
+      "save_coefficients": true
+    }
+  },
+  {
+    "class": "SingleAgent",
+    "parameters": {
+      "update": 200,
+      "poolAcrossDyads": true,
+      "reward_type": "delayed0",
+      "lambda_": 0.75,
+      "gamma": 0.5,
+      "save_coefficients": true
+    }
+  }
+  ],
+"RLSVI_Inf_Gamma0.5EvaluatePolicy": [
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 200,
+        "reward_type": "naive",
+        "sigma": 0.5,
+        "gamma": 0.5,
+        "lambda_": 0.75,
+        "save_coefficients": true
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 200,
+        "reward_type": "naive",
+        "sigma": 0.5,
+        "gamma": 0.5,
+        "lambda_": 0.75,
+        "save_coefficients": true
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 200,
+          "reward_type": "delayed0",
+          "sigma": 0.5,
+          "lambda_": 0.75,
+          "delayed_weight": 0.2,
+          "save_coefficients": true
+        }
+      }
+  ],
+  "MRT_Test_Q": [
+    {
+      "class": "MRT",
+      "parameters": {
+        "p": 1
+      }
+    },
+    {
+      "class": "MRT",
+      "parameters": {
+        "p": 0.0
+      }
+    },
+    {
+      "class": "MRT",
+      "parameters": {
+        "p": 0.0
+      }
+    }
+  ]
+}

@@ -1,0 +1,7427 @@
+{
+  "T0_0.1_T1_0.1_T2_0.1_T3_0.1_M_0": {
+    "treatments": [
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.05_T1_0.1_T2_0.1_T3_0.05_M_0": {
+    "treatments": [
+      0.05,
+      0.1,
+      0.1,
+      0.05
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.2_T1_0.1_T2_0.1_T3_0.2_M_0": {
+    "treatments": [
+      0.2,
+      0.1,
+      0.1,
+      0.2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.1_T1_0.1_T2_0.1_T3_0.1_M_1": {
+    "treatments": [
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.05_T1_0.1_T2_0.1_T3_0.05_M_1": {
+    "treatments": [
+      0.05,
+      0.1,
+      0.1,
+      0.05
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.2_T1_0.1_T2_0.1_T3_0.2_M_1": {
+    "treatments": [
+      0.2,
+      0.1,
+      0.1,
+      0.2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.1_T1_0.1_T2_0.1_T3_0.1_M_2": {
+    "treatments": [
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.05_T1_0.1_T2_0.1_T3_0.05_M_2": {
+    "treatments": [
+      0.05,
+      0.1,
+      0.1,
+      0.05
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.2_T1_0.1_T2_0.1_T3_0.2_M_2": {
+    "treatments": [
+      0.2,
+      0.1,
+      0.1,
+      0.2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.1_T1_0.1_T2_0.5_T3_0.1_M_0": {
+    "treatments": [
+      0.1,
+      0.1,
+      0.5,
+      0.1
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.05_T1_0.1_T2_0.5_T3_0.05_M_0": {
+    "treatments": [
+      0.05,
+      0.1,
+      0.5,
+      0.05
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.2_T1_0.1_T2_0.5_T3_0.2_M_0": {
+    "treatments": [
+      0.2,
+      0.1,
+      0.5,
+      0.2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.1_T1_0.1_T2_0.5_T3_0.1_M_1": {
+    "treatments": [
+      0.1,
+      0.1,
+      0.5,
+      0.1
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.05_T1_0.1_T2_0.5_T3_0.05_M_1": {
+    "treatments": [
+      0.05,
+      0.1,
+      0.5,
+      0.05
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.2_T1_0.1_T2_0.5_T3_0.2_M_1": {
+    "treatments": [
+      0.2,
+      0.1,
+      0.5,
+      0.2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.1_T1_0.1_T2_0.5_T3_0.1_M_2": {
+    "treatments": [
+      0.1,
+      0.1,
+      0.5,
+      0.1
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.05_T1_0.1_T2_0.5_T3_0.05_M_2": {
+    "treatments": [
+      0.05,
+      0.1,
+      0.5,
+      0.05
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.2_T1_0.1_T2_0.5_T3_0.2_M_2": {
+    "treatments": [
+      0.2,
+      0.1,
+      0.5,
+      0.2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.1_T1_0.1_T2_1_T3_0.1_M_0": {
+    "treatments": [
+      0.1,
+      0.1,
+      1,
+      0.1
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.05_T1_0.1_T2_1_T3_0.05_M_0": {
+    "treatments": [
+      0.05,
+      0.1,
+      1,
+      0.05
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.2_T1_0.1_T2_1_T3_0.2_M_0": {
+    "treatments": [
+      0.2,
+      0.1,
+      1,
+      0.2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.1_T1_0.1_T2_1_T3_0.1_M_1": {
+    "treatments": [
+      0.1,
+      0.1,
+      1,
+      0.1
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.05_T1_0.1_T2_1_T3_0.05_M_1": {
+    "treatments": [
+      0.05,
+      0.1,
+      1,
+      0.05
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.2_T1_0.1_T2_1_T3_0.2_M_1": {
+    "treatments": [
+      0.2,
+      0.1,
+      1,
+      0.2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.1_T1_0.1_T2_1_T3_0.1_M_2": {
+    "treatments": [
+      0.1,
+      0.1,
+      1,
+      0.1
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.05_T1_0.1_T2_1_T3_0.05_M_2": {
+    "treatments": [
+      0.05,
+      0.1,
+      1,
+      0.05
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.2_T1_0.1_T2_1_T3_0.2_M_2": {
+    "treatments": [
+      0.2,
+      0.1,
+      1,
+      0.2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.3_T1_0.3_T2_0.1_T3_0.3_M_0": {
+    "treatments": [
+      0.3,
+      0.3,
+      0.1,
+      0.3
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.15_T1_0.3_T2_0.1_T3_0.15_M_0": {
+    "treatments": [
+      0.15,
+      0.3,
+      0.1,
+      0.15
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.6_T1_0.3_T2_0.1_T3_0.6_M_0": {
+    "treatments": [
+      0.6,
+      0.3,
+      0.1,
+      0.6
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.3_T1_0.3_T2_0.1_T3_0.3_M_1": {
+    "treatments": [
+      0.3,
+      0.3,
+      0.1,
+      0.3
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.15_T1_0.3_T2_0.1_T3_0.15_M_1": {
+    "treatments": [
+      0.15,
+      0.3,
+      0.1,
+      0.15
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.6_T1_0.3_T2_0.1_T3_0.6_M_1": {
+    "treatments": [
+      0.6,
+      0.3,
+      0.1,
+      0.6
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.3_T1_0.3_T2_0.1_T3_0.3_M_2": {
+    "treatments": [
+      0.3,
+      0.3,
+      0.1,
+      0.3
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.15_T1_0.3_T2_0.1_T3_0.15_M_2": {
+    "treatments": [
+      0.15,
+      0.3,
+      0.1,
+      0.15
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.6_T1_0.3_T2_0.1_T3_0.6_M_2": {
+    "treatments": [
+      0.6,
+      0.3,
+      0.1,
+      0.6
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.3_T1_0.3_T2_0.5_T3_0.3_M_0": {
+    "treatments": [
+      0.3,
+      0.3,
+      0.5,
+      0.3
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.15_T1_0.3_T2_0.5_T3_0.15_M_0": {
+    "treatments": [
+      0.15,
+      0.3,
+      0.5,
+      0.15
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.6_T1_0.3_T2_0.5_T3_0.6_M_0": {
+    "treatments": [
+      0.6,
+      0.3,
+      0.5,
+      0.6
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.3_T1_0.3_T2_0.5_T3_0.3_M_1": {
+    "treatments": [
+      0.3,
+      0.3,
+      0.5,
+      0.3
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.15_T1_0.3_T2_0.5_T3_0.15_M_1": {
+    "treatments": [
+      0.15,
+      0.3,
+      0.5,
+      0.15
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.6_T1_0.3_T2_0.5_T3_0.6_M_1": {
+    "treatments": [
+      0.6,
+      0.3,
+      0.5,
+      0.6
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.3_T1_0.3_T2_0.5_T3_0.3_M_2": {
+    "treatments": [
+      0.3,
+      0.3,
+      0.5,
+      0.3
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.15_T1_0.3_T2_0.5_T3_0.15_M_2": {
+    "treatments": [
+      0.15,
+      0.3,
+      0.5,
+      0.15
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.6_T1_0.3_T2_0.5_T3_0.6_M_2": {
+    "treatments": [
+      0.6,
+      0.3,
+      0.5,
+      0.6
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.3_T1_0.3_T2_1_T3_0.3_M_0": {
+    "treatments": [
+      0.3,
+      0.3,
+      1,
+      0.3
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.15_T1_0.3_T2_1_T3_0.15_M_0": {
+    "treatments": [
+      0.15,
+      0.3,
+      1,
+      0.15
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.6_T1_0.3_T2_1_T3_0.6_M_0": {
+    "treatments": [
+      0.6,
+      0.3,
+      1,
+      0.6
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.3_T1_0.3_T2_1_T3_0.3_M_1": {
+    "treatments": [
+      0.3,
+      0.3,
+      1,
+      0.3
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.15_T1_0.3_T2_1_T3_0.15_M_1": {
+    "treatments": [
+      0.15,
+      0.3,
+      1,
+      0.15
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.6_T1_0.3_T2_1_T3_0.6_M_1": {
+    "treatments": [
+      0.6,
+      0.3,
+      1,
+      0.6
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.3_T1_0.3_T2_1_T3_0.3_M_2": {
+    "treatments": [
+      0.3,
+      0.3,
+      1,
+      0.3
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.15_T1_0.3_T2_1_T3_0.15_M_2": {
+    "treatments": [
+      0.15,
+      0.3,
+      1,
+      0.15
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.6_T1_0.3_T2_1_T3_0.6_M_2": {
+    "treatments": [
+      0.6,
+      0.3,
+      1,
+      0.6
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.5_T1_0.5_T2_0.1_T3_0.5_M_0": {
+    "treatments": [
+      0.5,
+      0.5,
+      0.1,
+      0.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.25_T1_0.5_T2_0.1_T3_0.25_M_0": {
+    "treatments": [
+      0.25,
+      0.5,
+      0.1,
+      0.25
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.0_T1_0.5_T2_0.1_T3_1.0_M_0": {
+    "treatments": [
+      1.0,
+      0.5,
+      0.1,
+      1.0
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.5_T1_0.5_T2_0.1_T3_0.5_M_1": {
+    "treatments": [
+      0.5,
+      0.5,
+      0.1,
+      0.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.25_T1_0.5_T2_0.1_T3_0.25_M_1": {
+    "treatments": [
+      0.25,
+      0.5,
+      0.1,
+      0.25
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.0_T1_0.5_T2_0.1_T3_1.0_M_1": {
+    "treatments": [
+      1.0,
+      0.5,
+      0.1,
+      1.0
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.5_T1_0.5_T2_0.1_T3_0.5_M_2": {
+    "treatments": [
+      0.5,
+      0.5,
+      0.1,
+      0.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.25_T1_0.5_T2_0.1_T3_0.25_M_2": {
+    "treatments": [
+      0.25,
+      0.5,
+      0.1,
+      0.25
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.0_T1_0.5_T2_0.1_T3_1.0_M_2": {
+    "treatments": [
+      1.0,
+      0.5,
+      0.1,
+      1.0
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.5_T1_0.5_T2_0.5_T3_0.5_M_0": {
+    "treatments": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.25_T1_0.5_T2_0.5_T3_0.25_M_0": {
+    "treatments": [
+      0.25,
+      0.5,
+      0.5,
+      0.25
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.0_T1_0.5_T2_0.5_T3_1.0_M_0": {
+    "treatments": [
+      1.0,
+      0.5,
+      0.5,
+      1.0
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.5_T1_0.5_T2_0.5_T3_0.5_M_1": {
+    "treatments": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.25_T1_0.5_T2_0.5_T3_0.25_M_1": {
+    "treatments": [
+      0.25,
+      0.5,
+      0.5,
+      0.25
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.0_T1_0.5_T2_0.5_T3_1.0_M_1": {
+    "treatments": [
+      1.0,
+      0.5,
+      0.5,
+      1.0
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.5_T1_0.5_T2_0.5_T3_0.5_M_2": {
+    "treatments": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.25_T1_0.5_T2_0.5_T3_0.25_M_2": {
+    "treatments": [
+      0.25,
+      0.5,
+      0.5,
+      0.25
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.0_T1_0.5_T2_0.5_T3_1.0_M_2": {
+    "treatments": [
+      1.0,
+      0.5,
+      0.5,
+      1.0
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.5_T1_0.5_T2_1_T3_0.5_M_0": {
+    "treatments": [
+      0.5,
+      0.5,
+      1,
+      0.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.25_T1_0.5_T2_1_T3_0.25_M_0": {
+    "treatments": [
+      0.25,
+      0.5,
+      1,
+      0.25
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.0_T1_0.5_T2_1_T3_1.0_M_0": {
+    "treatments": [
+      1.0,
+      0.5,
+      1,
+      1.0
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.5_T1_0.5_T2_1_T3_0.5_M_1": {
+    "treatments": [
+      0.5,
+      0.5,
+      1,
+      0.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.25_T1_0.5_T2_1_T3_0.25_M_1": {
+    "treatments": [
+      0.25,
+      0.5,
+      1,
+      0.25
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.0_T1_0.5_T2_1_T3_1.0_M_1": {
+    "treatments": [
+      1.0,
+      0.5,
+      1,
+      1.0
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.5_T1_0.5_T2_1_T3_0.5_M_2": {
+    "treatments": [
+      0.5,
+      0.5,
+      1,
+      0.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.25_T1_0.5_T2_1_T3_0.25_M_2": {
+    "treatments": [
+      0.25,
+      0.5,
+      1,
+      0.25
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.0_T1_0.5_T2_1_T3_1.0_M_2": {
+    "treatments": [
+      1.0,
+      0.5,
+      1,
+      1.0
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.7_T1_0.7_T2_0.1_T3_0.7_M_0": {
+    "treatments": [
+      0.7,
+      0.7,
+      0.1,
+      0.7
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.35_T1_0.7_T2_0.1_T3_0.35_M_0": {
+    "treatments": [
+      0.35,
+      0.7,
+      0.1,
+      0.35
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.4_T1_0.7_T2_0.1_T3_1.4_M_0": {
+    "treatments": [
+      1.4,
+      0.7,
+      0.1,
+      1.4
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.7_T1_0.7_T2_0.1_T3_0.7_M_1": {
+    "treatments": [
+      0.7,
+      0.7,
+      0.1,
+      0.7
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.35_T1_0.7_T2_0.1_T3_0.35_M_1": {
+    "treatments": [
+      0.35,
+      0.7,
+      0.1,
+      0.35
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.4_T1_0.7_T2_0.1_T3_1.4_M_1": {
+    "treatments": [
+      1.4,
+      0.7,
+      0.1,
+      1.4
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.7_T1_0.7_T2_0.1_T3_0.7_M_2": {
+    "treatments": [
+      0.7,
+      0.7,
+      0.1,
+      0.7
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.35_T1_0.7_T2_0.1_T3_0.35_M_2": {
+    "treatments": [
+      0.35,
+      0.7,
+      0.1,
+      0.35
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.4_T1_0.7_T2_0.1_T3_1.4_M_2": {
+    "treatments": [
+      1.4,
+      0.7,
+      0.1,
+      1.4
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.7_T1_0.7_T2_0.5_T3_0.7_M_0": {
+    "treatments": [
+      0.7,
+      0.7,
+      0.5,
+      0.7
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.35_T1_0.7_T2_0.5_T3_0.35_M_0": {
+    "treatments": [
+      0.35,
+      0.7,
+      0.5,
+      0.35
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.4_T1_0.7_T2_0.5_T3_1.4_M_0": {
+    "treatments": [
+      1.4,
+      0.7,
+      0.5,
+      1.4
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.7_T1_0.7_T2_0.5_T3_0.7_M_1": {
+    "treatments": [
+      0.7,
+      0.7,
+      0.5,
+      0.7
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.35_T1_0.7_T2_0.5_T3_0.35_M_1": {
+    "treatments": [
+      0.35,
+      0.7,
+      0.5,
+      0.35
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.4_T1_0.7_T2_0.5_T3_1.4_M_1": {
+    "treatments": [
+      1.4,
+      0.7,
+      0.5,
+      1.4
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.7_T1_0.7_T2_0.5_T3_0.7_M_2": {
+    "treatments": [
+      0.7,
+      0.7,
+      0.5,
+      0.7
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.35_T1_0.7_T2_0.5_T3_0.35_M_2": {
+    "treatments": [
+      0.35,
+      0.7,
+      0.5,
+      0.35
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.4_T1_0.7_T2_0.5_T3_1.4_M_2": {
+    "treatments": [
+      1.4,
+      0.7,
+      0.5,
+      1.4
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.7_T1_0.7_T2_1_T3_0.7_M_0": {
+    "treatments": [
+      0.7,
+      0.7,
+      1,
+      0.7
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.35_T1_0.7_T2_1_T3_0.35_M_0": {
+    "treatments": [
+      0.35,
+      0.7,
+      1,
+      0.35
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.4_T1_0.7_T2_1_T3_1.4_M_0": {
+    "treatments": [
+      1.4,
+      0.7,
+      1,
+      1.4
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.7_T1_0.7_T2_1_T3_0.7_M_1": {
+    "treatments": [
+      0.7,
+      0.7,
+      1,
+      0.7
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.35_T1_0.7_T2_1_T3_0.35_M_1": {
+    "treatments": [
+      0.35,
+      0.7,
+      1,
+      0.35
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.4_T1_0.7_T2_1_T3_1.4_M_1": {
+    "treatments": [
+      1.4,
+      0.7,
+      1,
+      1.4
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.7_T1_0.7_T2_1_T3_0.7_M_2": {
+    "treatments": [
+      0.7,
+      0.7,
+      1,
+      0.7
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.35_T1_0.7_T2_1_T3_0.35_M_2": {
+    "treatments": [
+      0.35,
+      0.7,
+      1,
+      0.35
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.4_T1_0.7_T2_1_T3_1.4_M_2": {
+    "treatments": [
+      1.4,
+      0.7,
+      1,
+      1.4
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.9_T1_0.9_T2_0.1_T3_0.9_M_0": {
+    "treatments": [
+      0.9,
+      0.9,
+      0.1,
+      0.9
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.45_T1_0.9_T2_0.1_T3_0.45_M_0": {
+    "treatments": [
+      0.45,
+      0.9,
+      0.1,
+      0.45
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.8_T1_0.9_T2_0.1_T3_1.8_M_0": {
+    "treatments": [
+      1.8,
+      0.9,
+      0.1,
+      1.8
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.9_T1_0.9_T2_0.1_T3_0.9_M_1": {
+    "treatments": [
+      0.9,
+      0.9,
+      0.1,
+      0.9
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.45_T1_0.9_T2_0.1_T3_0.45_M_1": {
+    "treatments": [
+      0.45,
+      0.9,
+      0.1,
+      0.45
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.8_T1_0.9_T2_0.1_T3_1.8_M_1": {
+    "treatments": [
+      1.8,
+      0.9,
+      0.1,
+      1.8
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.9_T1_0.9_T2_0.1_T3_0.9_M_2": {
+    "treatments": [
+      0.9,
+      0.9,
+      0.1,
+      0.9
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.45_T1_0.9_T2_0.1_T3_0.45_M_2": {
+    "treatments": [
+      0.45,
+      0.9,
+      0.1,
+      0.45
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.8_T1_0.9_T2_0.1_T3_1.8_M_2": {
+    "treatments": [
+      1.8,
+      0.9,
+      0.1,
+      1.8
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.9_T1_0.9_T2_0.5_T3_0.9_M_0": {
+    "treatments": [
+      0.9,
+      0.9,
+      0.5,
+      0.9
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.45_T1_0.9_T2_0.5_T3_0.45_M_0": {
+    "treatments": [
+      0.45,
+      0.9,
+      0.5,
+      0.45
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.8_T1_0.9_T2_0.5_T3_1.8_M_0": {
+    "treatments": [
+      1.8,
+      0.9,
+      0.5,
+      1.8
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.9_T1_0.9_T2_0.5_T3_0.9_M_1": {
+    "treatments": [
+      0.9,
+      0.9,
+      0.5,
+      0.9
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.45_T1_0.9_T2_0.5_T3_0.45_M_1": {
+    "treatments": [
+      0.45,
+      0.9,
+      0.5,
+      0.45
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.8_T1_0.9_T2_0.5_T3_1.8_M_1": {
+    "treatments": [
+      1.8,
+      0.9,
+      0.5,
+      1.8
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.9_T1_0.9_T2_0.5_T3_0.9_M_2": {
+    "treatments": [
+      0.9,
+      0.9,
+      0.5,
+      0.9
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.45_T1_0.9_T2_0.5_T3_0.45_M_2": {
+    "treatments": [
+      0.45,
+      0.9,
+      0.5,
+      0.45
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.8_T1_0.9_T2_0.5_T3_1.8_M_2": {
+    "treatments": [
+      1.8,
+      0.9,
+      0.5,
+      1.8
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.9_T1_0.9_T2_1_T3_0.9_M_0": {
+    "treatments": [
+      0.9,
+      0.9,
+      1,
+      0.9
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.45_T1_0.9_T2_1_T3_0.45_M_0": {
+    "treatments": [
+      0.45,
+      0.9,
+      1,
+      0.45
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.8_T1_0.9_T2_1_T3_1.8_M_0": {
+    "treatments": [
+      1.8,
+      0.9,
+      1,
+      1.8
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.9_T1_0.9_T2_1_T3_0.9_M_1": {
+    "treatments": [
+      0.9,
+      0.9,
+      1,
+      0.9
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.45_T1_0.9_T2_1_T3_0.45_M_1": {
+    "treatments": [
+      0.45,
+      0.9,
+      1,
+      0.45
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.8_T1_0.9_T2_1_T3_1.8_M_1": {
+    "treatments": [
+      1.8,
+      0.9,
+      1,
+      1.8
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.9_T1_0.9_T2_1_T3_0.9_M_2": {
+    "treatments": [
+      0.9,
+      0.9,
+      1,
+      0.9
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.45_T1_0.9_T2_1_T3_0.45_M_2": {
+    "treatments": [
+      0.45,
+      0.9,
+      1,
+      0.45
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.8_T1_0.9_T2_1_T3_1.8_M_2": {
+    "treatments": [
+      1.8,
+      0.9,
+      1,
+      1.8
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1_T1_1_T2_0.1_T3_1_M_0": {
+    "treatments": [
+      1,
+      1,
+      0.1,
+      1
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.5_T1_1_T2_0.1_T3_0.5_M_0": {
+    "treatments": [
+      0.5,
+      1,
+      0.1,
+      0.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_2_T1_1_T2_0.1_T3_2_M_0": {
+    "treatments": [
+      2,
+      1,
+      0.1,
+      2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1_T1_1_T2_0.1_T3_1_M_1": {
+    "treatments": [
+      1,
+      1,
+      0.1,
+      1
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.5_T1_1_T2_0.1_T3_0.5_M_1": {
+    "treatments": [
+      0.5,
+      1,
+      0.1,
+      0.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_2_T1_1_T2_0.1_T3_2_M_1": {
+    "treatments": [
+      2,
+      1,
+      0.1,
+      2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1_T1_1_T2_0.1_T3_1_M_2": {
+    "treatments": [
+      1,
+      1,
+      0.1,
+      1
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.5_T1_1_T2_0.1_T3_0.5_M_2": {
+    "treatments": [
+      0.5,
+      1,
+      0.1,
+      0.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_2_T1_1_T2_0.1_T3_2_M_2": {
+    "treatments": [
+      2,
+      1,
+      0.1,
+      2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1_T1_1_T2_0.5_T3_1_M_0": {
+    "treatments": [
+      1,
+      1,
+      0.5,
+      1
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.5_T1_1_T2_0.5_T3_0.5_M_0": {
+    "treatments": [
+      0.5,
+      1,
+      0.5,
+      0.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_2_T1_1_T2_0.5_T3_2_M_0": {
+    "treatments": [
+      2,
+      1,
+      0.5,
+      2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1_T1_1_T2_0.5_T3_1_M_1": {
+    "treatments": [
+      1,
+      1,
+      0.5,
+      1
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.5_T1_1_T2_0.5_T3_0.5_M_1": {
+    "treatments": [
+      0.5,
+      1,
+      0.5,
+      0.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_2_T1_1_T2_0.5_T3_2_M_1": {
+    "treatments": [
+      2,
+      1,
+      0.5,
+      2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1_T1_1_T2_0.5_T3_1_M_2": {
+    "treatments": [
+      1,
+      1,
+      0.5,
+      1
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.5_T1_1_T2_0.5_T3_0.5_M_2": {
+    "treatments": [
+      0.5,
+      1,
+      0.5,
+      0.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_2_T1_1_T2_0.5_T3_2_M_2": {
+    "treatments": [
+      2,
+      1,
+      0.5,
+      2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1_T1_1_T2_1_T3_1_M_0": {
+    "treatments": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.5_T1_1_T2_1_T3_0.5_M_0": {
+    "treatments": [
+      0.5,
+      1,
+      1,
+      0.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_2_T1_1_T2_1_T3_2_M_0": {
+    "treatments": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1_T1_1_T2_1_T3_1_M_1": {
+    "treatments": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.5_T1_1_T2_1_T3_0.5_M_1": {
+    "treatments": [
+      0.5,
+      1,
+      1,
+      0.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_2_T1_1_T2_1_T3_2_M_1": {
+    "treatments": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1_T1_1_T2_1_T3_1_M_2": {
+    "treatments": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.5_T1_1_T2_1_T3_0.5_M_2": {
+    "treatments": [
+      0.5,
+      1,
+      1,
+      0.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_2_T1_1_T2_1_T3_2_M_2": {
+    "treatments": [
+      2,
+      1,
+      1,
+      2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.2_T1_1.2_T2_0.1_T3_1.2_M_0": {
+    "treatments": [
+      1.2,
+      1.2,
+      0.1,
+      1.2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.6_T1_1.2_T2_0.1_T3_0.6_M_0": {
+    "treatments": [
+      0.6,
+      1.2,
+      0.1,
+      0.6
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_2.4_T1_1.2_T2_0.1_T3_2.4_M_0": {
+    "treatments": [
+      2.4,
+      1.2,
+      0.1,
+      2.4
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.2_T1_1.2_T2_0.1_T3_1.2_M_1": {
+    "treatments": [
+      1.2,
+      1.2,
+      0.1,
+      1.2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.6_T1_1.2_T2_0.1_T3_0.6_M_1": {
+    "treatments": [
+      0.6,
+      1.2,
+      0.1,
+      0.6
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_2.4_T1_1.2_T2_0.1_T3_2.4_M_1": {
+    "treatments": [
+      2.4,
+      1.2,
+      0.1,
+      2.4
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.2_T1_1.2_T2_0.1_T3_1.2_M_2": {
+    "treatments": [
+      1.2,
+      1.2,
+      0.1,
+      1.2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.6_T1_1.2_T2_0.1_T3_0.6_M_2": {
+    "treatments": [
+      0.6,
+      1.2,
+      0.1,
+      0.6
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_2.4_T1_1.2_T2_0.1_T3_2.4_M_2": {
+    "treatments": [
+      2.4,
+      1.2,
+      0.1,
+      2.4
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.2_T1_1.2_T2_0.5_T3_1.2_M_0": {
+    "treatments": [
+      1.2,
+      1.2,
+      0.5,
+      1.2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.6_T1_1.2_T2_0.5_T3_0.6_M_0": {
+    "treatments": [
+      0.6,
+      1.2,
+      0.5,
+      0.6
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_2.4_T1_1.2_T2_0.5_T3_2.4_M_0": {
+    "treatments": [
+      2.4,
+      1.2,
+      0.5,
+      2.4
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.2_T1_1.2_T2_0.5_T3_1.2_M_1": {
+    "treatments": [
+      1.2,
+      1.2,
+      0.5,
+      1.2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.6_T1_1.2_T2_0.5_T3_0.6_M_1": {
+    "treatments": [
+      0.6,
+      1.2,
+      0.5,
+      0.6
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_2.4_T1_1.2_T2_0.5_T3_2.4_M_1": {
+    "treatments": [
+      2.4,
+      1.2,
+      0.5,
+      2.4
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.2_T1_1.2_T2_0.5_T3_1.2_M_2": {
+    "treatments": [
+      1.2,
+      1.2,
+      0.5,
+      1.2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.6_T1_1.2_T2_0.5_T3_0.6_M_2": {
+    "treatments": [
+      0.6,
+      1.2,
+      0.5,
+      0.6
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_2.4_T1_1.2_T2_0.5_T3_2.4_M_2": {
+    "treatments": [
+      2.4,
+      1.2,
+      0.5,
+      2.4
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.2_T1_1.2_T2_1_T3_1.2_M_0": {
+    "treatments": [
+      1.2,
+      1.2,
+      1,
+      1.2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.6_T1_1.2_T2_1_T3_0.6_M_0": {
+    "treatments": [
+      0.6,
+      1.2,
+      1,
+      0.6
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_2.4_T1_1.2_T2_1_T3_2.4_M_0": {
+    "treatments": [
+      2.4,
+      1.2,
+      1,
+      2.4
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.2_T1_1.2_T2_1_T3_1.2_M_1": {
+    "treatments": [
+      1.2,
+      1.2,
+      1,
+      1.2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.6_T1_1.2_T2_1_T3_0.6_M_1": {
+    "treatments": [
+      0.6,
+      1.2,
+      1,
+      0.6
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_2.4_T1_1.2_T2_1_T3_2.4_M_1": {
+    "treatments": [
+      2.4,
+      1.2,
+      1,
+      2.4
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.2_T1_1.2_T2_1_T3_1.2_M_2": {
+    "treatments": [
+      1.2,
+      1.2,
+      1,
+      1.2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.6_T1_1.2_T2_1_T3_0.6_M_2": {
+    "treatments": [
+      0.6,
+      1.2,
+      1,
+      0.6
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_2.4_T1_1.2_T2_1_T3_2.4_M_2": {
+    "treatments": [
+      2.4,
+      1.2,
+      1,
+      2.4
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.5_T1_1.5_T2_0.1_T3_1.5_M_0": {
+    "treatments": [
+      1.5,
+      1.5,
+      0.1,
+      1.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.75_T1_1.5_T2_0.1_T3_0.75_M_0": {
+    "treatments": [
+      0.75,
+      1.5,
+      0.1,
+      0.75
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_3.0_T1_1.5_T2_0.1_T3_3.0_M_0": {
+    "treatments": [
+      3.0,
+      1.5,
+      0.1,
+      3.0
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.5_T1_1.5_T2_0.1_T3_1.5_M_1": {
+    "treatments": [
+      1.5,
+      1.5,
+      0.1,
+      1.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.75_T1_1.5_T2_0.1_T3_0.75_M_1": {
+    "treatments": [
+      0.75,
+      1.5,
+      0.1,
+      0.75
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_3.0_T1_1.5_T2_0.1_T3_3.0_M_1": {
+    "treatments": [
+      3.0,
+      1.5,
+      0.1,
+      3.0
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.5_T1_1.5_T2_0.1_T3_1.5_M_2": {
+    "treatments": [
+      1.5,
+      1.5,
+      0.1,
+      1.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.75_T1_1.5_T2_0.1_T3_0.75_M_2": {
+    "treatments": [
+      0.75,
+      1.5,
+      0.1,
+      0.75
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_3.0_T1_1.5_T2_0.1_T3_3.0_M_2": {
+    "treatments": [
+      3.0,
+      1.5,
+      0.1,
+      3.0
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.5_T1_1.5_T2_0.5_T3_1.5_M_0": {
+    "treatments": [
+      1.5,
+      1.5,
+      0.5,
+      1.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.75_T1_1.5_T2_0.5_T3_0.75_M_0": {
+    "treatments": [
+      0.75,
+      1.5,
+      0.5,
+      0.75
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_3.0_T1_1.5_T2_0.5_T3_3.0_M_0": {
+    "treatments": [
+      3.0,
+      1.5,
+      0.5,
+      3.0
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.5_T1_1.5_T2_0.5_T3_1.5_M_1": {
+    "treatments": [
+      1.5,
+      1.5,
+      0.5,
+      1.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.75_T1_1.5_T2_0.5_T3_0.75_M_1": {
+    "treatments": [
+      0.75,
+      1.5,
+      0.5,
+      0.75
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_3.0_T1_1.5_T2_0.5_T3_3.0_M_1": {
+    "treatments": [
+      3.0,
+      1.5,
+      0.5,
+      3.0
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.5_T1_1.5_T2_0.5_T3_1.5_M_2": {
+    "treatments": [
+      1.5,
+      1.5,
+      0.5,
+      1.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.75_T1_1.5_T2_0.5_T3_0.75_M_2": {
+    "treatments": [
+      0.75,
+      1.5,
+      0.5,
+      0.75
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_3.0_T1_1.5_T2_0.5_T3_3.0_M_2": {
+    "treatments": [
+      3.0,
+      1.5,
+      0.5,
+      3.0
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.5_T1_1.5_T2_1_T3_1.5_M_0": {
+    "treatments": [
+      1.5,
+      1.5,
+      1,
+      1.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.75_T1_1.5_T2_1_T3_0.75_M_0": {
+    "treatments": [
+      0.75,
+      1.5,
+      1,
+      0.75
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_3.0_T1_1.5_T2_1_T3_3.0_M_0": {
+    "treatments": [
+      3.0,
+      1.5,
+      1,
+      3.0
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.5_T1_1.5_T2_1_T3_1.5_M_1": {
+    "treatments": [
+      1.5,
+      1.5,
+      1,
+      1.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.75_T1_1.5_T2_1_T3_0.75_M_1": {
+    "treatments": [
+      0.75,
+      1.5,
+      1,
+      0.75
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_3.0_T1_1.5_T2_1_T3_3.0_M_1": {
+    "treatments": [
+      3.0,
+      1.5,
+      1,
+      3.0
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.5_T1_1.5_T2_1_T3_1.5_M_2": {
+    "treatments": [
+      1.5,
+      1.5,
+      1,
+      1.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.75_T1_1.5_T2_1_T3_0.75_M_2": {
+    "treatments": [
+      0.75,
+      1.5,
+      1,
+      0.75
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_3.0_T1_1.5_T2_1_T3_3.0_M_2": {
+    "treatments": [
+      3.0,
+      1.5,
+      1,
+      3.0
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.75_T1_1.75_T2_0.1_T3_1.75_M_0": {
+    "treatments": [
+      1.75,
+      1.75,
+      0.1,
+      1.75
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.875_T1_1.75_T2_0.1_T3_0.875_M_0": {
+    "treatments": [
+      0.875,
+      1.75,
+      0.1,
+      0.875
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_3.5_T1_1.75_T2_0.1_T3_3.5_M_0": {
+    "treatments": [
+      3.5,
+      1.75,
+      0.1,
+      3.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.75_T1_1.75_T2_0.1_T3_1.75_M_1": {
+    "treatments": [
+      1.75,
+      1.75,
+      0.1,
+      1.75
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.875_T1_1.75_T2_0.1_T3_0.875_M_1": {
+    "treatments": [
+      0.875,
+      1.75,
+      0.1,
+      0.875
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_3.5_T1_1.75_T2_0.1_T3_3.5_M_1": {
+    "treatments": [
+      3.5,
+      1.75,
+      0.1,
+      3.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.75_T1_1.75_T2_0.1_T3_1.75_M_2": {
+    "treatments": [
+      1.75,
+      1.75,
+      0.1,
+      1.75
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.875_T1_1.75_T2_0.1_T3_0.875_M_2": {
+    "treatments": [
+      0.875,
+      1.75,
+      0.1,
+      0.875
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_3.5_T1_1.75_T2_0.1_T3_3.5_M_2": {
+    "treatments": [
+      3.5,
+      1.75,
+      0.1,
+      3.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.75_T1_1.75_T2_0.5_T3_1.75_M_0": {
+    "treatments": [
+      1.75,
+      1.75,
+      0.5,
+      1.75
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.875_T1_1.75_T2_0.5_T3_0.875_M_0": {
+    "treatments": [
+      0.875,
+      1.75,
+      0.5,
+      0.875
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_3.5_T1_1.75_T2_0.5_T3_3.5_M_0": {
+    "treatments": [
+      3.5,
+      1.75,
+      0.5,
+      3.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.75_T1_1.75_T2_0.5_T3_1.75_M_1": {
+    "treatments": [
+      1.75,
+      1.75,
+      0.5,
+      1.75
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.875_T1_1.75_T2_0.5_T3_0.875_M_1": {
+    "treatments": [
+      0.875,
+      1.75,
+      0.5,
+      0.875
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_3.5_T1_1.75_T2_0.5_T3_3.5_M_1": {
+    "treatments": [
+      3.5,
+      1.75,
+      0.5,
+      3.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.75_T1_1.75_T2_0.5_T3_1.75_M_2": {
+    "treatments": [
+      1.75,
+      1.75,
+      0.5,
+      1.75
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.875_T1_1.75_T2_0.5_T3_0.875_M_2": {
+    "treatments": [
+      0.875,
+      1.75,
+      0.5,
+      0.875
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_3.5_T1_1.75_T2_0.5_T3_3.5_M_2": {
+    "treatments": [
+      3.5,
+      1.75,
+      0.5,
+      3.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.75_T1_1.75_T2_1_T3_1.75_M_0": {
+    "treatments": [
+      1.75,
+      1.75,
+      1,
+      1.75
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.875_T1_1.75_T2_1_T3_0.875_M_0": {
+    "treatments": [
+      0.875,
+      1.75,
+      1,
+      0.875
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_3.5_T1_1.75_T2_1_T3_3.5_M_0": {
+    "treatments": [
+      3.5,
+      1.75,
+      1,
+      3.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.75_T1_1.75_T2_1_T3_1.75_M_1": {
+    "treatments": [
+      1.75,
+      1.75,
+      1,
+      1.75
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.875_T1_1.75_T2_1_T3_0.875_M_1": {
+    "treatments": [
+      0.875,
+      1.75,
+      1,
+      0.875
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_3.5_T1_1.75_T2_1_T3_3.5_M_1": {
+    "treatments": [
+      3.5,
+      1.75,
+      1,
+      3.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.75_T1_1.75_T2_1_T3_1.75_M_2": {
+    "treatments": [
+      1.75,
+      1.75,
+      1,
+      1.75
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_0.875_T1_1.75_T2_1_T3_0.875_M_2": {
+    "treatments": [
+      0.875,
+      1.75,
+      1,
+      0.875
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_3.5_T1_1.75_T2_1_T3_3.5_M_2": {
+    "treatments": [
+      3.5,
+      1.75,
+      1,
+      3.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_2_T1_2_T2_0.1_T3_2_M_0": {
+    "treatments": [
+      2,
+      2,
+      0.1,
+      2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.0_T1_2_T2_0.1_T3_1.0_M_0": {
+    "treatments": [
+      1.0,
+      2,
+      0.1,
+      1.0
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_4_T1_2_T2_0.1_T3_4_M_0": {
+    "treatments": [
+      4,
+      2,
+      0.1,
+      4
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_2_T1_2_T2_0.1_T3_2_M_1": {
+    "treatments": [
+      2,
+      2,
+      0.1,
+      2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.0_T1_2_T2_0.1_T3_1.0_M_1": {
+    "treatments": [
+      1.0,
+      2,
+      0.1,
+      1.0
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_4_T1_2_T2_0.1_T3_4_M_1": {
+    "treatments": [
+      4,
+      2,
+      0.1,
+      4
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_2_T1_2_T2_0.1_T3_2_M_2": {
+    "treatments": [
+      2,
+      2,
+      0.1,
+      2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.0_T1_2_T2_0.1_T3_1.0_M_2": {
+    "treatments": [
+      1.0,
+      2,
+      0.1,
+      1.0
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_4_T1_2_T2_0.1_T3_4_M_2": {
+    "treatments": [
+      4,
+      2,
+      0.1,
+      4
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_2_T1_2_T2_0.5_T3_2_M_0": {
+    "treatments": [
+      2,
+      2,
+      0.5,
+      2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.0_T1_2_T2_0.5_T3_1.0_M_0": {
+    "treatments": [
+      1.0,
+      2,
+      0.5,
+      1.0
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_4_T1_2_T2_0.5_T3_4_M_0": {
+    "treatments": [
+      4,
+      2,
+      0.5,
+      4
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_2_T1_2_T2_0.5_T3_2_M_1": {
+    "treatments": [
+      2,
+      2,
+      0.5,
+      2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.0_T1_2_T2_0.5_T3_1.0_M_1": {
+    "treatments": [
+      1.0,
+      2,
+      0.5,
+      1.0
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_4_T1_2_T2_0.5_T3_4_M_1": {
+    "treatments": [
+      4,
+      2,
+      0.5,
+      4
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_2_T1_2_T2_0.5_T3_2_M_2": {
+    "treatments": [
+      2,
+      2,
+      0.5,
+      2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.0_T1_2_T2_0.5_T3_1.0_M_2": {
+    "treatments": [
+      1.0,
+      2,
+      0.5,
+      1.0
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_4_T1_2_T2_0.5_T3_4_M_2": {
+    "treatments": [
+      4,
+      2,
+      0.5,
+      4
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_2_T1_2_T2_1_T3_2_M_0": {
+    "treatments": [
+      2,
+      2,
+      1,
+      2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.0_T1_2_T2_1_T3_1.0_M_0": {
+    "treatments": [
+      1.0,
+      2,
+      1,
+      1.0
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_4_T1_2_T2_1_T3_4_M_0": {
+    "treatments": [
+      4,
+      2,
+      1,
+      4
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_2_T1_2_T2_1_T3_2_M_1": {
+    "treatments": [
+      2,
+      2,
+      1,
+      2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.0_T1_2_T2_1_T3_1.0_M_1": {
+    "treatments": [
+      1.0,
+      2,
+      1,
+      1.0
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_4_T1_2_T2_1_T3_4_M_1": {
+    "treatments": [
+      4,
+      2,
+      1,
+      4
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_2_T1_2_T2_1_T3_2_M_2": {
+    "treatments": [
+      2,
+      2,
+      1,
+      2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.0_T1_2_T2_1_T3_1.0_M_2": {
+    "treatments": [
+      1.0,
+      2,
+      1,
+      1.0
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_4_T1_2_T2_1_T3_4_M_2": {
+    "treatments": [
+      4,
+      2,
+      1,
+      4
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_3_T1_3_T2_0.1_T3_3_M_0": {
+    "treatments": [
+      3,
+      3,
+      0.1,
+      3
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.5_T1_3_T2_0.1_T3_1.5_M_0": {
+    "treatments": [
+      1.5,
+      3,
+      0.1,
+      1.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_6_T1_3_T2_0.1_T3_6_M_0": {
+    "treatments": [
+      6,
+      3,
+      0.1,
+      6
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_3_T1_3_T2_0.1_T3_3_M_1": {
+    "treatments": [
+      3,
+      3,
+      0.1,
+      3
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.5_T1_3_T2_0.1_T3_1.5_M_1": {
+    "treatments": [
+      1.5,
+      3,
+      0.1,
+      1.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_6_T1_3_T2_0.1_T3_6_M_1": {
+    "treatments": [
+      6,
+      3,
+      0.1,
+      6
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_3_T1_3_T2_0.1_T3_3_M_2": {
+    "treatments": [
+      3,
+      3,
+      0.1,
+      3
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.5_T1_3_T2_0.1_T3_1.5_M_2": {
+    "treatments": [
+      1.5,
+      3,
+      0.1,
+      1.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_6_T1_3_T2_0.1_T3_6_M_2": {
+    "treatments": [
+      6,
+      3,
+      0.1,
+      6
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_3_T1_3_T2_0.5_T3_3_M_0": {
+    "treatments": [
+      3,
+      3,
+      0.5,
+      3
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.5_T1_3_T2_0.5_T3_1.5_M_0": {
+    "treatments": [
+      1.5,
+      3,
+      0.5,
+      1.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_6_T1_3_T2_0.5_T3_6_M_0": {
+    "treatments": [
+      6,
+      3,
+      0.5,
+      6
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_3_T1_3_T2_0.5_T3_3_M_1": {
+    "treatments": [
+      3,
+      3,
+      0.5,
+      3
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.5_T1_3_T2_0.5_T3_1.5_M_1": {
+    "treatments": [
+      1.5,
+      3,
+      0.5,
+      1.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_6_T1_3_T2_0.5_T3_6_M_1": {
+    "treatments": [
+      6,
+      3,
+      0.5,
+      6
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_3_T1_3_T2_0.5_T3_3_M_2": {
+    "treatments": [
+      3,
+      3,
+      0.5,
+      3
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.5_T1_3_T2_0.5_T3_1.5_M_2": {
+    "treatments": [
+      1.5,
+      3,
+      0.5,
+      1.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_6_T1_3_T2_0.5_T3_6_M_2": {
+    "treatments": [
+      6,
+      3,
+      0.5,
+      6
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_3_T1_3_T2_1_T3_3_M_0": {
+    "treatments": [
+      3,
+      3,
+      1,
+      3
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.5_T1_3_T2_1_T3_1.5_M_0": {
+    "treatments": [
+      1.5,
+      3,
+      1,
+      1.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_6_T1_3_T2_1_T3_6_M_0": {
+    "treatments": [
+      6,
+      3,
+      1,
+      6
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_3_T1_3_T2_1_T3_3_M_1": {
+    "treatments": [
+      3,
+      3,
+      1,
+      3
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.5_T1_3_T2_1_T3_1.5_M_1": {
+    "treatments": [
+      1.5,
+      3,
+      1,
+      1.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_6_T1_3_T2_1_T3_6_M_1": {
+    "treatments": [
+      6,
+      3,
+      1,
+      6
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_3_T1_3_T2_1_T3_3_M_2": {
+    "treatments": [
+      3,
+      3,
+      1,
+      3
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_1.5_T1_3_T2_1_T3_1.5_M_2": {
+    "treatments": [
+      1.5,
+      3,
+      1,
+      1.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  },
+  "T0_6_T1_3_T2_1_T3_6_M_2": {
+    "treatments": [
+      6,
+      3,
+      1,
+      6
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures",
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000",
+      "MRT0",
+      "MRT1",
+      "MRT0.5",
+      "MRT0.6",
+      "MRT0.7",
+      "MRT0.8",
+      "MRT0.9"
+    ]
+  }
+}

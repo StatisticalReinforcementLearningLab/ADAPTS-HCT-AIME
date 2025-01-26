@@ -1,0 +1,114 @@
+{
+  "RewardLearningHighAYA":[
+    {
+      "class": "MRT",
+      "parameters": {
+        "p": 0.75
+      }
+    },
+    {
+      "class": "MRT",
+      "parameters": {
+        "p": 0.5
+      }
+    },
+    {
+      "class": "RewardLearningLocal",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 100,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.2,
+        "next_week_weight": 1,
+        "use_prior": false,
+        "save_param": true,
+        "name": "HighAYA"
+      }
+    }
+  ],
+  "RewardLearningLowAYA":[
+    {
+      "class": "MRT",
+      "parameters": {
+        "p": 0.25
+      }
+    },
+    {
+      "class": "MRT",
+      "parameters": {
+        "p": 0.5
+      }
+    },
+    {
+      "class": "RewardLearningLocal",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 100,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.2,
+        "next_week_weight": 1,
+        "use_prior": false,
+        "save_param": true,
+        "name": "LowAYA"
+      }
+    }
+  ],
+  "RewardLearningHighGame":[
+    {
+      "class": "MRT",
+      "parameters": {
+        "p": 0.5
+      }
+    },
+    {
+      "class": "RewardLearningLocal",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 100,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.2,
+        "gamma": 0.5,
+        "use_prior": false,
+        "save_param": true,
+        "name": "HighGame"
+      }
+    },
+    {
+      "class": "MRT",
+      "parameters": {
+        "p": 0.75
+      }
+    }
+  ],
+  "RewardLearningLowGame":[
+    {
+      "class": "MRT",
+      "parameters": {
+        "p": 0.5
+      }
+    },
+    {
+      "class": "RewardLearningLocal",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 100,
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "rwd_lambda": 0.2,
+        "gamma": 0.5,
+        "use_prior": false,
+        "save_param": true,
+        "name": "LowGame"
+      }
+    },
+    {
+      "class": "MRT",
+      "parameters": {
+        "p": 0.25
+      }
+    }
+  ]
+}

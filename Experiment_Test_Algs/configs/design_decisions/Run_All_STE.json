@@ -1,0 +1,9 @@
+{
+    "env_list": ["Mediator0_03", "Mediator0_05", "Mediator0_015", 
+                 "Mediator1_03", "Mediator1_05", "Mediator1_015", 
+                 "Mediator2_03", "Mediator2_05", "Mediator2_015",
+                "Mediator-1_03", "Mediator-1_05", "Mediator-1_015"],
+    "n": 25,
+    "rep": 1000,
+    "algorithm_list": ["MRT", "SingleAgent_RwdNaive_Pool_Sigm0.5_Lambda0.75", "RewardLearning", "RLSVI_Inf_Gamma_0.5", "RewardLearningNewCare"]
+}

@@ -1,0 +1,593 @@
+---
+title: "Disengagement Analysis"
+output:
+  word_document: default
+  html_document: default
+date: "2023-12-10"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+setwd("~/Desktop/Research/DyadicRL/DyadicRL-Follow-up/real_data_preprocessing")
+```
+
+
+```{r}
+library(readxl)
+library(ggplot2)
+library(dplyr)
+```
+
+## Definition of Disengagement
+
+We say that a participant becomes disengaged, if we receive no observation (missing) on all of the variables in at least $P\%$ of the remaining study.
+
+```{r}
+aggregate = function(data0){
+  n = dim(data0)[1]
+  
+  heart_data = cbind(data0[2:n,"morningHEART"], data0[1:(n-1),"dayHEART"], data0[1:(n-1),"nightHEART"])
+  heart = apply(heart_data, 1, mean, na.rm = TRUE)
+  heart[is.nan(heart)]=NA
+  
+  mood_data = cbind(data0[1:(n-1),"morningMOOD"], data0[1:(n-1),"dayMOOD"], data0[1:(n-1),"nightMOOD"])
+  mood = apply(mood_data, 1, mean, na.rm = TRUE)
+  mood[is.nan(mood)]=NA
+  
+  sleep_data = cbind(data0[2:n,"morningSLEEP"], data0[1:(n-1),"nightSLEEP"])
+  sleep = apply(sleep_data, 1, sum, na.rm = TRUE)
+  sleep[is.nan(sleep)]=NA
+  sleep[sleep==0]=NA
+  
+  step_data = cbind(data0[2:n,"morningSTEPS"], data0[1:(n-1),"daySTEPS"], data0[1:(n-1),"nightSTEPS"])
+  step = apply(step_data, 1, sum, na.rm = TRUE)
+  step[is.nan(step)]=NA
+  step[step==0]=NA
+  
+  new_data = data.frame(HEART = heart, MOOD = mood, SLEEP = sleep, STEPS = step)
+  return (new_data)
+}
+```
+
+```{r}
+
+pairs = read_excel("BMT_Roadmap_with_Peds_2023_04_21.xlsx")
+
+file_location = "summary_stats_removing0"
+impute_file_location = "imputed_data"
+residual_file_location = "residuals_heter"
+missing_count = function(a){sum(is.na(a))/length(a)}
+
+length_thres = 7*15
+
+n = 0
+
+list_patient = list()
+list_caregiver = list()
+
+list_raw_data = list()
+
+for (study_ID in c(201,203)){
+  study_directory = sprintf("%s/%s/",file_location,study_ID)
+  caregivers = list.files(path = study_directory)
+  for (caregiver_number in (1:length(caregivers))){
+    compliance = FALSE
+    caregiver = substr(caregivers[caregiver_number],1,8)
+    if (length(which(pairs[,3]==caregiver)) > 0){
+        ## can find a match
+        patient = toString(pairs[which(pairs[,3]==caregiver),2])
+        filename_caregiver = sprintf("%s/%s/%s.Rda",file_location,study_ID, caregiver)
+        load(filename_caregiver)
+        data_caregiver0 = data_one_user
+        data_caregiver = aggregate(data_caregiver0)
+        filename_patient = sprintf("%s/%s/%s.Rda",file_location,202, patient)
+        if (file.exists(filename_patient)){
+          
+          load(filename_patient)
+          data_patient0 = data_one_user
+          data_patient = aggregate(data_patient0)
+          
+          if(dim(data_patient)[1] >= length_thres & dim(data_caregiver)[1] >= length_thres){
+            n = n + 1
+          }
+          else{
+            next
+          }
+          
+          list_raw_data[[n]] = data_patient
+          
+          days = length_thres
+          for(d in 1:days){
+            data_patient[d, ] = apply(data_patient[d+1:days, ], 2, missing_count)
+          }
+          
+          for(d in 1:days){
+            data_caregiver[d, ] = apply(data_caregiver[d+1:days, ], 2, missing_count)
+          }
+          
+          list_patient[[n]] = data_patient[1:days, ]
+          list_caregiver[[n]] = data_caregiver[1:days, ]
+        }
+    }
+  }
+}
+print(n)
+```
+
+There are 158 matched dyads.
+
+We calculate the average remaining missing rate at each day. For a specific participant $i$, at the day $t$ we calculate the missing rate in the remaining days (out of 105 days) for each variable, which we denote as $\text{miss}_{i, t, j}$, where $j$ is the index for variables in MOOD, STEPs, SLEEP and HEART. Then we take average over all the participants for the groups of patients and caregivers.
+
+```{r, out.width="50%", out.height="50%"}
+library(ggplot2)
+ave_patient = list_patient[[1]]
+for(i in 2:n){
+  ave_patient = ave_patient + list_patient[[i]]
+}
+ave_patient = ave_patient/n
+ave_patient$Day = seq(1, length_thres)
+ave_patient$Ave = (ave_patient$HEART + ave_patient$MOOD + ave_patient$SLEEP + ave_patient$STEPS) / 4
+
+ave_caregiver = list_caregiver[[1]]
+for(i in 2:n){
+  ave_caregiver = ave_caregiver + list_caregiver[[i]]
+}
+ave_caregiver = ave_caregiver/n
+ave_caregiver$Day = seq(1, length_thres)
+ave_caregiver$Ave = (ave_caregiver$HEART + ave_caregiver$MOOD + ave_caregiver$SLEEP + ave_caregiver$STEPS) / 4
+
+# convert to long table
+library(tidyr)
+long_patient = gather(ave_patient, key = "Variable", value = "Value", -Day)
+long_caregiver = gather(ave_caregiver, key = "Variable", value = "Value", -Day)
+
+g1 = ggplot(data = long_patient) + geom_line(aes(color = Variable, x = Day, y = Value)) + ylab("Ave Missing Rate Across Participant") + ggtitle("Patient") + theme_minimal()
+g2 = ggplot(data = long_caregiver) + geom_line(aes(color = Variable, x = Day, y = Value)) + ylab("Ave Missing Rate Across Participant") + ggtitle("Caregiver") + theme_minimal()
+g1
+g2
+ggsave("Suvival_analysis/missing_rate_patient.pdf", g1, width = 15, height = 10, units = "cm")
+ggsave("Suvival_analysis/missing_rate_caregiver.pdf", g2, width = 15, height = 10, units = "cm")
+
+```
+
+It is noted that on day 75 there are on average around 70% missing rate in the remaining days. We set $P = 70%$ and study the drop out rate at the different days.
+```{r, out.width="50%", out.height="50%"}
+library(ggplot2)
+
+data_list = list()
+data_list[[1]] = list_patient
+data_list[[2]] = list_caregiver
+
+drop_list = list()
+p = 0.7
+
+for(j in 1:2){
+  # dat = data_list[[j]]
+  drop_list[[j]] = list()
+  for(i in 1:n){
+    dat = data_list[[j]][[i]]
+    for(var in 1:4){
+      for(d in 1:length_thres){
+        if(dat[d, var] > p){
+          dat[d:length_thres, var] = 0
+          break
+        }
+        else{
+          dat[d, var] = 1
+        }
+      }
+    }
+    drop_list[[j]][[i]] = dat
+  }
+}
+
+ave_patient = drop_list[[1]][[1]]
+for(i in 2:n){
+  ave_patient = ave_patient + drop_list[[1]][[i]]
+}
+ave_patient = ave_patient/n
+ave_patient$Day = seq(1, length_thres)
+ave_patient$Ave = (ave_patient$HEART + ave_patient$MOOD + ave_patient$SLEEP + ave_patient$STEPS) / 4
+
+ave_caregiver = drop_list[[2]][[1]]
+for(i in 2:n){
+  ave_caregiver = ave_caregiver + drop_list[[2]][[i]]
+}
+ave_caregiver = ave_caregiver/n
+ave_caregiver$Day = seq(1, length_thres)
+ave_caregiver$Ave = (ave_caregiver$HEART + ave_caregiver$MOOD + ave_caregiver$SLEEP + ave_caregiver$STEPS) / 4
+
+# convert to long table
+library(tidyr)
+long_patient = gather(ave_patient, key = "Variable", value = "Value", -Day)
+long_caregiver = gather(ave_caregiver, key = "Variable", value = "Value", -Day)
+
+g1 = ggplot(data = long_patient) + geom_line(aes(color = Variable, x = Day, y = 1-Value)) + theme_minimal() + ylab("Ave Dropout Rate Across Participant") + ggtitle("Patient")
+g2 = ggplot(data = long_caregiver) + geom_line(aes(color = Variable, x = Day, y = 1-Value)) + theme_minimal() + ylab("Ave Dropout Rate Across Participant") + ggtitle("Caregiver")
+g1
+g2
+ggsave("Suvival_analysis/dropout_rate_patient.pdf", g1, width = 15, height = 10, units = "cm")
+ggsave("Suvival_analysis/dropout_rate_caregiver.pdf", g2, width = 15, height = 10, units = "cm")
+
+```
+
+```{r, out.width="50%", out.height="50%"}
+
+library(survival)
+g_list = list()
+g_hazard_list = list()
+for(j in 1:2){
+  dat = drop_list[[j]][[1]]
+  dat$ALL = as.numeric(dat$HEART | dat$MOOD | dat$SLEEP | dat$STEPS)
+  dat$Day = seq(1, length_thres)
+  
+  for(i in 2:n){
+    tmp = drop_list[[j]][[i]]
+    tmp$ALL = as.numeric(tmp$HEART | tmp$MOOD | tmp$SLEEP | tmp$STEPS)
+    tmp$Day = seq(1, length_thres)
+    dat = rbind(dat, tmp)
+  }
+  
+  var = c("HEART", "MOOD", "SLEEP", "STEPS", "ALL")
+  surv_list = list()
+  hazard_list = list()
+  for(v in var){
+    surv_model = survfit(Surv(dat$Day, dat[, v]) ~ 1)
+    # Extract the cumulative hazard function from the survival model
+    cumulative_hazard <- -log(surv_model$surv)
+    # Calculate the hazard function
+    hazard_function <- diff(cumulative_hazard)
+    surv_list[[v]] = surv_model$surv
+    hazard_list[[v]] = hazard_function
+  }
+  surv <- data.frame(do.call(cbind, surv_list))
+  surv$Day = seq(1, length_thres)
+  
+  hazard <- data.frame(do.call(cbind, hazard_list))
+  hazard$Day = seq(2, length_thres)
+  
+  library(tidyr)
+  long_surv = gather(surv, key = "Variable", value = "Value", -Day)
+  
+  g = ggplot(data = long_surv) + geom_line(aes(color = Variable, x = Day, y = Value)) + theme_minimal() + ylab("Survival Rate from Cox Model")
+  if(j == 1){
+    title = "Patient"
+  }
+  else{
+    title = "Caregiver"
+  }
+  g = g + ggtitle(title)
+  g_list[[j]] = g
+  
+  long_hazard = gather(hazard, key = "Variable", value = "Value", -Day)
+  
+  g = ggplot(data = long_hazard) + geom_line(aes(color = Variable, x = Day, y = Value)) + theme_minimal() + ylab("Hazard Rate from Cox Model")
+  if(j == 1){
+    title = "Patient"
+  }
+  else{
+    title = "Caregiver"
+  }
+  g = g + ggtitle(title)
+  g_hazard_list[[j]] = g
+}
+g_list[[1]]
+g_list[[2]]
+ggsave("Suvival_analysis/survival_rate_patient.pdf", g_list[[1]], width = 15, height = 10, units = "cm")
+ggsave("Suvival_analysis/survival_rate_caregiver.pdf", g_list[[2]], width = 15, height = 10, units = "cm")
+
+ggsave("Suvival_analysis/hazard_rate_patient.pdf", g_hazard_list[[1]], width = 15, height = 10, units = "cm")
+ggsave("Suvival_analysis/hazard_rate_caregiver.pdf", g_hazard_list[[2]], width = 15, height = 10, units = "cm")
+```
+
+
+### Susan's suggestion
+
+We use a different definition of disengagement. We say that an user becomes disengages, if they answer $x$ or fewer EMAs in the past 7 days. 
+
+```{r}
+dis_threshold = 7
+```
+
+```{r}
+library(readxl)
+pairs = read_excel("BMT_Roadmap_with_Peds_2023_04_21.xlsx")
+
+file_location = "summary_stats_removing0"
+impute_file_location = "imputed_data"
+residual_file_location = "residuals_heter"
+
+missing_count = function(a){sum(is.na(a))}
+
+length_thres = 7*15
+
+n = 0
+
+list_patient = list()
+list_caregiver = list()
+
+list_raw_data = list()
+
+for (study_ID in c(201,203)){
+  study_directory = sprintf("%s/%s/",file_location,study_ID)
+  caregivers = list.files(path = study_directory)
+  for (caregiver_number in (1:length(caregivers))){
+    compliance = FALSE
+    caregiver = substr(caregivers[caregiver_number],1,8)
+    if (length(which(pairs[,3]==caregiver)) > 0){
+        ## can find a match
+        patient = toString(pairs[which(pairs[,3]==caregiver),2])
+        filename_caregiver = sprintf("%s/%s/%s.Rda",file_location,study_ID, caregiver)
+        load(filename_caregiver)
+        data_caregiver0 = data_one_user
+        data_caregiver = aggregate(data_caregiver0)
+        filename_patient = sprintf("%s/%s/%s.Rda",file_location,202, patient)
+        if (file.exists(filename_patient)){
+          
+          load(filename_patient)
+          data_patient0 = data_one_user
+          data_patient = aggregate(data_patient0)
+          
+          if(dim(data_patient)[1] >= length_thres & dim(data_caregiver)[1] >= length_thres){
+            n = n + 1
+          }
+          else{
+            next
+          }
+          
+          list_raw_data[[n]] = data_patient
+          
+          days = length_thres
+          data_patient$disengage = 0
+          data_caregiver$disengage = 0
+          for(d in 7:days){
+            data_patient$disengage[d] = as.numeric(missing_count(data_patient$MOOD[max(d-6, 1):d]) >= dis_threshold)
+            if(data_patient$disengage[d] == 1){
+              data_patient$disengage[d:days] = 1
+              break
+            }
+          }
+          for(d in 7:days){
+            data_caregiver$disengage[d] = as.numeric(missing_count(data_caregiver$MOOD[max(d-6, 1):d]) >= dis_threshold)
+            if(data_caregiver$disengage[d] == 1){
+              data_caregiver$disengage[d:days] = 1
+              break
+            }
+          }
+          
+          list_patient[[n]] = data_patient[1:days, ]
+          list_caregiver[[n]] = data_caregiver[1:days, ]
+        }
+    }
+  }
+}
+print(n)
+```
+
+```{r}
+drop_list = list()
+drop_list[[1]] = list_patient
+drop_list[[2]] = list_caregiver
+
+for(j in 1:2){
+  dat = drop_list[[j]][[1]]
+  dat$Day = seq(1, length_thres)
+  
+  for(i in 2:n){
+    tmp = drop_list[[j]][[i]]
+    tmp$Day = seq(1, length_thres)
+    dat = rbind(dat, tmp)
+  }
+  
+  library(tidyr)
+  g = ggplot(data = long_surv) + geom_line(aes(color = Variable, x = Day, y = Value)) + theme_minimal() + ylab("Survival Rate")
+  if(j == 1){
+    title = "Patient"
+  }
+  else{
+    title = "Caregiver"
+  }
+  g = g + ggtitle(title)
+  g_list[[j]] = g
+  
+  long_hazard = gather(hazard, key = "Variable", value = "Value", -Day)
+  
+  g = ggplot(data = long_hazard) + geom_line(aes(color = Variable, x = Day, y = Value)) + theme_minimal() + ylab("Hazard Rate from Cox Model")
+  if(j == 1){
+    title = "Patient"
+  }
+  else{
+    title = "Caregiver"
+  }
+  g = g + ggtitle(title)
+  g_hazard_list[[j]] = g
+}
+g_list[[1]]
+g_list[[2]]
+#ggsave("Suvival_analysis/survival_rate_patient.pdf", g_list[[1]], width = 15, height = 10, units = "cm")
+#ggsave("Suvival_analysis/survival_rate_caregiver.pdf", g_list[[2]], width = 15, height = 10, units = "cm")
+
+#ggsave("Suvival_analysis/hazard_rate_patient.pdf", g_hazard_list[[1]], width = 15, height = 10, units = "cm")
+#ggsave("Suvival_analysis/hazard_rate_caregiver.pdf", g_hazard_list[[2]], width = 15, height = 10, units = "cm")
+```
+
+```{r}
+library(survival)
+library(survey)
+library(car)
+library(foreign)
+
+drop_list = list()
+drop_list[[1]] = list_patient
+drop_list[[2]] = list_caregiver
+g_list = list()
+g_hazard_list = list()
+g_cum_hazard_list = list()
+for(j in 1:2){
+  dat = drop_list[[j]][[1]]
+  dat$Day = seq(1, length_thres)
+  dat$ID = 1
+  for(i in 2:n){
+    tmp = drop_list[[j]][[i]]
+    tmp$Day = seq(1, length_thres)
+    tmp$ID = i
+    dat = rbind(dat, tmp)
+  }
+  dat$Day = as.factor(dat[, 'Day'])
+  
+  dat_by_day = dat %>%
+  group_by(Day) %>%
+  summarise(event = sum(disengage),
+            total = n()) %>%
+  mutate(surv = event/total)
+  
+  dat_by_day$hazard = c(0, diff(dat_by_day$surv))
+  
+  plot = dat_by_day %>%
+  ggplot(aes(x = as.numeric(Day), y = surv)) +
+  geom_line() +
+  theme_minimal() + ylab("Disengagement Rate") + xlab("Days")
+  g_list[[j]] = plot
+  
+  dat$Day = as.numeric(dat$Day)
+  dat$disengage = as.numeric(dat$disengage)
+  # model = coxph(Surv(Day, disengage) ~ 1, data=dat)
+  model = survfit(Surv(Day, disengage) ~ 1, data=dat)
+  # hazard = data.frame(diff(basehaz(model, centered = FALSE)$hazard))
+  hazard = data.frame(model$n.event/model$n.risk)
+  colnames(hazard)[1] = "Hazard"
+  hazard$Day = seq(1, length_thres)
+  g = ggplot(data = hazard) + geom_line(aes(x = Day, y = Hazard)) + theme_minimal() + 
+        ylab("Hazard Rate from Cox Model") + xlab("Days")
+  if(j == 1){
+    title = "Patient"
+  }
+  else{
+    title = "Caregiver"
+  }
+  g = g + ggtitle(title)
+  g_hazard_list[[j]] = g
+  
+  # cumulative
+  hazard = data.frame(cumsum(model$n.event/model$n.risk))
+  colnames(hazard)[1] = "Hazard"
+  hazard$Day = seq(1, length_thres)
+  
+  g = ggplot(data = hazard) + geom_line(aes(x = Day, y = Hazard)) + theme_minimal() + 
+        ylab("Cumulative Hazard Rate from Cox Model") + xlab("Days")
+  if(j == 1){
+    title = "Patient"
+  }
+  else{
+    title = "Caregiver"
+  }
+  g = g + ggtitle(title)
+  g_cum_hazard_list[[j]] = g
+}
+g_list[[1]]
+g_list[[2]]
+
+g_hazard_list[[1]]
+g_hazard_list[[2]]
+
+g_cum_hazard_list[[1]]
+g_cum_hazard_list[[2]]
+ggsave("Suvival_analysis/survival_rate_patient.pdf", g_list[[1]], width = 15, height = 10, units = "cm")
+ggsave("Suvival_analysis/survival_rate_caregiver.pdf", g_list[[2]], width = 15, height = 10, units = "cm")
+
+ggsave("Suvival_analysis/hazard_rate_patient.pdf", g_hazard_list[[1]], width = 15, height = 10, units = "cm")
+ggsave("Suvival_analysis/hazard_rate_caregiver.pdf", g_hazard_list[[2]], width = 15, height = 10, units = "cm")
+```
+
+## How many participants come back after disengagement?
+
+```{r}
+library(readxl)
+pairs = read_excel("BMT_Roadmap_with_Peds_2023_04_21.xlsx")
+
+file_location = "summary_stats_removing0"
+impute_file_location = "imputed_data"
+residual_file_location = "residuals_heter"
+
+missing_count = function(a){sum(is.na(a))}
+
+length_thres = 7*15
+
+n = 0
+
+list_patient = list()
+list_caregiver = list()
+
+list_raw_data = list()
+
+for (study_ID in c(201,203)){
+  study_directory = sprintf("%s/%s/",file_location,study_ID)
+  caregivers = list.files(path = study_directory)
+  for (caregiver_number in (1:length(caregivers))){
+    compliance = FALSE
+    caregiver = substr(caregivers[caregiver_number],1,8)
+    if (length(which(pairs[,3]==caregiver)) > 0){
+        ## can find a match
+        patient = toString(pairs[which(pairs[,3]==caregiver),2])
+        filename_caregiver = sprintf("%s/%s/%s.Rda",file_location,study_ID, caregiver)
+        load(filename_caregiver)
+        data_caregiver0 = data_one_user
+        data_caregiver = aggregate(data_caregiver0)
+        filename_patient = sprintf("%s/%s/%s.Rda",file_location,202, patient)
+        if (file.exists(filename_patient)){
+          
+          load(filename_patient)
+          data_patient0 = data_one_user
+          data_patient = aggregate(data_patient0)
+          
+          if(dim(data_patient)[1] >= length_thres & dim(data_caregiver)[1] >= length_thres){
+            n = n + 1
+          }
+          else{
+            next
+          }
+          
+          list_raw_data[[n]] = data_patient
+          list_patient[[n]] = data_patient[1:days, ]
+          list_caregiver[[n]] = data_caregiver[1:days, ]
+        }
+    }
+  }
+}
+print(n)
+```
+
+```{r}
+dis_threshold = 7
+window = 7
+come_back = 0
+disengage = 0
+missing_count = function(a){sum(is.na(a))}
+for(i in 1:n){
+  dat = list_raw_data[[i]]
+  days = length_thres
+  dat$disengage = 0
+  for(d in 1:days){
+    if(dat$disengage[d] == 1){
+      if(d-2*window+1 >= 1 & (missing_count(dat$MOOD[max(d-2*window+1, 1):d]) <= 5)){
+        come_back = come_back + 1
+        break
+      }
+    }
+    if((dat$disengage[d] == 0) & (missing_count(dat$MOOD[max(d-window, 1):d]) >= dis_threshold)){
+      dat$disengage[d:days] = 1
+      disengage = disengage + 1
+    }
+  }
+}
+print(come_back)
+print(disengage)
+```
+
+
+
+
+
+
+
+

@@ -1,0 +1,7 @@
+{
+    "env_list": ["Mediator1_05"],
+    "n": 1000,
+    "rep": 1,
+    "algorithm_list": ["RewardLearningHighAYA", "RewardLearningLowAYA",
+                       "RewardLearningHighGame", "RewardLearningLowGame"]
+}

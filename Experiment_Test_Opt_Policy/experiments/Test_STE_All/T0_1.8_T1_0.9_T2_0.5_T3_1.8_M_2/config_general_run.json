@@ -1,0 +1,224 @@
+{
+    "n": 100,
+    "rep": 63,
+    "seed": 1,
+    "softmax_tem": 100,
+    "treatments": [
+        1.8,
+        0.9,
+        0.5,
+        1.8
+    ],
+    "mediator": 2,
+    "algs": {
+        "OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures": [
+            {
+                "class": "OptPolicy",
+                "parameters": {
+                    "rep": 500,
+                    "optimal_policy": "only_first_three_features"
+                }
+            },
+            {
+                "class": "OptPolicy",
+                "parameters": {
+                    "rep": 500,
+                    "optimal_policy": "only_first_three_features"
+                }
+            },
+            {
+                "class": "OptPolicy",
+                "parameters": {
+                    "rep": 500,
+                    "optimal_policy": "only_first_three_features"
+                }
+            }
+        ],
+        "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000": [
+            {
+                "class": "OptPolicy",
+                "parameters": {
+                    "rep": 1000,
+                    "optimal_policy": "only_first_six_features"
+                }
+            },
+            {
+                "class": "OptPolicy",
+                "parameters": {
+                    "rep": 1000,
+                    "optimal_policy": "only_first_six_features"
+                }
+            },
+            {
+                "class": "OptPolicy",
+                "parameters": {
+                    "rep": 1000,
+                    "optimal_policy": "only_first_six_features"
+                }
+            }
+        ],
+        "OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000": [
+            {
+                "class": "OptPolicy",
+                "parameters": {
+                    "rep": 1000,
+                    "optimal_policy": "only_first_five_features"
+                }
+            },
+            {
+                "class": "OptPolicy",
+                "parameters": {
+                    "rep": 1000,
+                    "optimal_policy": "only_first_five_features"
+                }
+            },
+            {
+                "class": "OptPolicy",
+                "parameters": {
+                    "rep": 1000,
+                    "optimal_policy": "only_first_five_features"
+                }
+            }
+        ],
+        "MRT0": [
+            {
+                "class": "MRT",
+                "parameters": {
+                    "p": 0
+                }
+            },
+            {
+                "class": "MRT",
+                "parameters": {
+                    "p": 0
+                }
+            },
+            {
+                "class": "MRT",
+                "parameters": {
+                    "p": 0
+                }
+            }
+        ],
+        "MRT1": [
+            {
+                "class": "MRT",
+                "parameters": {
+                    "p": 1
+                }
+            },
+            {
+                "class": "MRT",
+                "parameters": {
+                    "p": 1
+                }
+            },
+            {
+                "class": "MRT",
+                "parameters": {
+                    "p": 1
+                }
+            }
+        ],
+        "MRT0.5": [
+            {
+                "class": "MRT",
+                "parameters": {
+                    "p": 0.5
+                }
+            },
+            {
+                "class": "MRT",
+                "parameters": {
+                    "p": 0.5
+                }
+            },
+            {
+                "class": "MRT",
+                "parameters": {
+                    "p": 0.5
+                }
+            }
+        ],
+        "MRT0.6": [
+            {
+                "class": "MRT",
+                "parameters": {
+                    "p": 0.6
+                }
+            },
+            {
+                "class": "MRT",
+                "parameters": {
+                    "p": 0.6
+                }
+            },
+            {
+                "class": "MRT",
+                "parameters": {
+                    "p": 0.6
+                }
+            }
+        ],
+        "MRT0.7": [
+            {
+                "class": "MRT",
+                "parameters": {
+                    "p": 0.7
+                }
+            },
+            {
+                "class": "MRT",
+                "parameters": {
+                    "p": 0.7
+                }
+            },
+            {
+                "class": "MRT",
+                "parameters": {
+                    "p": 0.7
+                }
+            }
+        ],
+        "MRT0.8": [
+            {
+                "class": "MRT",
+                "parameters": {
+                    "p": 0.8
+                }
+            },
+            {
+                "class": "MRT",
+                "parameters": {
+                    "p": 0.8
+                }
+            },
+            {
+                "class": "MRT",
+                "parameters": {
+                    "p": 0.8
+                }
+            }
+        ],
+        "MRT0.9": [
+            {
+                "class": "MRT",
+                "parameters": {
+                    "p": 0.9
+                }
+            },
+            {
+                "class": "MRT",
+                "parameters": {
+                    "p": 0.9
+                }
+            },
+            {
+                "class": "MRT",
+                "parameters": {
+                    "p": 0.9
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,920 @@
+{
+  "T0_0.05_T1_0.05_T2_0.05_T3_0.05_M_0": {
+    "treatments": [
+      0.05,
+      0.05,
+      0.05,
+      0.05
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.05_T1_0.05_T2_0.05_T3_0.05_M_1": {
+    "treatments": [
+      0.05,
+      0.05,
+      0.05,
+      0.05
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.05_T1_0.05_T2_0.05_T3_0.05_M_2": {
+    "treatments": [
+      0.05,
+      0.05,
+      0.05,
+      0.05
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.1_T1_0.1_T2_0.1_T3_0.1_M_0": {
+    "treatments": [
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.1_T1_0.1_T2_0.1_T3_0.1_M_1": {
+    "treatments": [
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.1_T1_0.1_T2_0.1_T3_0.1_M_2": {
+    "treatments": [
+      0.1,
+      0.1,
+      0.1,
+      0.1
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.15_T1_0.15_T2_0.15_T3_0.15_M_0": {
+    "treatments": [
+      0.15,
+      0.15,
+      0.15,
+      0.15
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.15_T1_0.15_T2_0.15_T3_0.15_M_1": {
+    "treatments": [
+      0.15,
+      0.15,
+      0.15,
+      0.15
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.15_T1_0.15_T2_0.15_T3_0.15_M_2": {
+    "treatments": [
+      0.15,
+      0.15,
+      0.15,
+      0.15
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.2_T1_0.2_T2_0.2_T3_0.2_M_0": {
+    "treatments": [
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.2_T1_0.2_T2_0.2_T3_0.2_M_1": {
+    "treatments": [
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.2_T1_0.2_T2_0.2_T3_0.2_M_2": {
+    "treatments": [
+      0.2,
+      0.2,
+      0.2,
+      0.2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.25_T1_0.25_T2_0.25_T3_0.25_M_0": {
+    "treatments": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.25_T1_0.25_T2_0.25_T3_0.25_M_1": {
+    "treatments": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.25_T1_0.25_T2_0.25_T3_0.25_M_2": {
+    "treatments": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.3_T1_0.3_T2_0.3_T3_0.3_M_0": {
+    "treatments": [
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.3_T1_0.3_T2_0.3_T3_0.3_M_1": {
+    "treatments": [
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.3_T1_0.3_T2_0.3_T3_0.3_M_2": {
+    "treatments": [
+      0.3,
+      0.3,
+      0.3,
+      0.3
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.35_T1_0.35_T2_0.35_T3_0.35_M_0": {
+    "treatments": [
+      0.35,
+      0.35,
+      0.35,
+      0.35
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.35_T1_0.35_T2_0.35_T3_0.35_M_1": {
+    "treatments": [
+      0.35,
+      0.35,
+      0.35,
+      0.35
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.35_T1_0.35_T2_0.35_T3_0.35_M_2": {
+    "treatments": [
+      0.35,
+      0.35,
+      0.35,
+      0.35
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.4_T1_0.4_T2_0.4_T3_0.4_M_0": {
+    "treatments": [
+      0.4,
+      0.4,
+      0.4,
+      0.4
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.4_T1_0.4_T2_0.4_T3_0.4_M_1": {
+    "treatments": [
+      0.4,
+      0.4,
+      0.4,
+      0.4
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.4_T1_0.4_T2_0.4_T3_0.4_M_2": {
+    "treatments": [
+      0.4,
+      0.4,
+      0.4,
+      0.4
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.45_T1_0.45_T2_0.45_T3_0.45_M_0": {
+    "treatments": [
+      0.45,
+      0.45,
+      0.45,
+      0.45
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.45_T1_0.45_T2_0.45_T3_0.45_M_1": {
+    "treatments": [
+      0.45,
+      0.45,
+      0.45,
+      0.45
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.45_T1_0.45_T2_0.45_T3_0.45_M_2": {
+    "treatments": [
+      0.45,
+      0.45,
+      0.45,
+      0.45
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.5_T1_0.5_T2_0.5_T3_0.5_M_0": {
+    "treatments": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.5_T1_0.5_T2_0.5_T3_0.5_M_1": {
+    "treatments": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.5_T1_0.5_T2_0.5_T3_0.5_M_2": {
+    "treatments": [
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.7_T1_0.7_T2_0.7_T3_0.7_M_0": {
+    "treatments": [
+      0.7,
+      0.7,
+      0.7,
+      0.7
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.7_T1_0.7_T2_0.7_T3_0.7_M_1": {
+    "treatments": [
+      0.7,
+      0.7,
+      0.7,
+      0.7
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.7_T1_0.7_T2_0.7_T3_0.7_M_2": {
+    "treatments": [
+      0.7,
+      0.7,
+      0.7,
+      0.7
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.9_T1_0.9_T2_0.9_T3_0.9_M_0": {
+    "treatments": [
+      0.9,
+      0.9,
+      0.9,
+      0.9
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.9_T1_0.9_T2_0.9_T3_0.9_M_1": {
+    "treatments": [
+      0.9,
+      0.9,
+      0.9,
+      0.9
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_0.9_T1_0.9_T2_0.9_T3_0.9_M_2": {
+    "treatments": [
+      0.9,
+      0.9,
+      0.9,
+      0.9
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_1_T1_1_T2_1_T3_1_M_0": {
+    "treatments": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_1_T1_1_T2_1_T3_1_M_1": {
+    "treatments": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_1_T1_1_T2_1_T3_1_M_2": {
+    "treatments": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_1.2_T1_1.2_T2_1.2_T3_1.2_M_0": {
+    "treatments": [
+      1.2,
+      1.2,
+      1.2,
+      1.2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_1.2_T1_1.2_T2_1.2_T3_1.2_M_1": {
+    "treatments": [
+      1.2,
+      1.2,
+      1.2,
+      1.2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_1.2_T1_1.2_T2_1.2_T3_1.2_M_2": {
+    "treatments": [
+      1.2,
+      1.2,
+      1.2,
+      1.2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_1.5_T1_1.5_T2_1.5_T3_1.5_M_0": {
+    "treatments": [
+      1.5,
+      1.5,
+      1.5,
+      1.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_1.5_T1_1.5_T2_1.5_T3_1.5_M_1": {
+    "treatments": [
+      1.5,
+      1.5,
+      1.5,
+      1.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_1.5_T1_1.5_T2_1.5_T3_1.5_M_2": {
+    "treatments": [
+      1.5,
+      1.5,
+      1.5,
+      1.5
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_1.75_T1_1.75_T2_1.75_T3_1.75_M_0": {
+    "treatments": [
+      1.75,
+      1.75,
+      1.75,
+      1.75
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_1.75_T1_1.75_T2_1.75_T3_1.75_M_1": {
+    "treatments": [
+      1.75,
+      1.75,
+      1.75,
+      1.75
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_1.75_T1_1.75_T2_1.75_T3_1.75_M_2": {
+    "treatments": [
+      1.75,
+      1.75,
+      1.75,
+      1.75
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_2_T1_2_T2_2_T3_2_M_0": {
+    "treatments": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_2_T1_2_T2_2_T3_2_M_1": {
+    "treatments": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_2_T1_2_T2_2_T3_2_M_2": {
+    "treatments": [
+      2,
+      2,
+      2,
+      2
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_3_T1_3_T2_3_T3_3_M_0": {
+    "treatments": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 0,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_3_T1_3_T2_3_T3_3_M_1": {
+    "treatments": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 1,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  },
+  "T0_3_T1_3_T2_3_T3_3_M_2": {
+    "treatments": [
+      3,
+      3,
+      3,
+      3
+    ],
+    "seed": 1,
+    "softmax_tem": 100,
+    "n": 100,
+    "rep": 63,
+    "mediator": 2,
+    "algorithms": [
+      "OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000",
+      "MRT0"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "reused": [
+    "save_t0.2_0.2_0.2_0.2_s1_soft100_n25_rep1000_ME2_MRT.csv",
+    "save_t0.2_0.2_0.2_0.2_s1_soft100_n25_rep1000_ME2_RLSVI_Inf_Gamma_0.5.csv",
+    "save_t0.2_0.2_0.2_0.2_s1_soft100_n25_rep1000_ME2_RewardLearning.csv"
+  ],
+  "new": [
+    "save_t0.2_0.2_0.2_0.2_s1_soft100_n25_rep1000_ME2_RewardLearningNewCare.csv",
+    "save_t0.2_0.2_0.2_0.2_s1_soft100_n25_rep1000_ME2_SingleAgent_Gamma0.5.csv"
+  ]
+}

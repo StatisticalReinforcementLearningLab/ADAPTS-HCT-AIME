@@ -1,0 +1,74 @@
+{
+    "Mediator0_03": {
+        "treatments": [0.2, 0.2, 0.2, 0.2],
+        "seed": 1,
+        "softmax_tem": 100,
+        "mediator": 0.0
+    },
+    "Mediator0_05": {
+        "treatments": [0.4, 0.4, 0.4, 0.4],
+        "seed": 1,
+        "softmax_tem": 100,
+        "mediator": 0.0
+    },
+    "Mediator0_015": {
+        "treatments": [0.1, 0.1, 0.1, 0.1],
+        "seed": 1,
+        "softmax_tem": 100,
+        "mediator": 0.0
+    },
+    "Mediator1_03": {
+        "treatments": [0.3, 0.3, 0.3, 0.3],
+        "seed": 1,
+        "softmax_tem": 100,
+        "mediator": 1.0
+    },
+    "Mediator1_05": {
+        "treatments": [0.7, 0.7, 0.7, 0.7],
+        "seed": 1,
+        "softmax_tem": 100,
+        "mediator": 1.0
+    },
+    "Mediator1_015": {
+        "treatments": [0.15, 0.15, 0.15, 0.15],
+        "seed": 1,
+        "softmax_tem": 100,
+        "mediator": 1.0
+    },   
+    "Mediator2_03": {
+        "treatments": [0.5, 0.5, 0.5, 0.5],
+        "seed": 1,
+        "softmax_tem": 100,
+        "mediator": 2.0
+    },
+    "Mediator2_05": {
+        "treatments": [1.5, 1.5, 1.5, 1.5],
+        "seed": 1,
+        "softmax_tem": 100,
+        "mediator": 2.0
+    },
+    "Mediator2_015": {
+        "treatments": [0.2, 0.2, 0.2, 0.2],
+        "seed": 1,
+        "softmax_tem": 100,
+        "mediator": 2.0
+    },
+    "Mediator-1_03": {
+        "treatments": [0.5, 0.5, 0.5, 0.5],
+        "seed": 1,
+        "softmax_tem": 100,
+        "mediator": -1.0
+    },
+    "Mediator-1_05": {
+        "treatments": [1.5, 1.5, 1.5, 1.5],
+        "seed": 1,
+        "softmax_tem": 100,
+        "mediator": -1.0
+    },
+    "Mediator-1_015": {
+        "treatments": [0.2, 0.2, 0.2, 0.2],
+        "seed": 1,
+        "softmax_tem": 100,
+        "mediator": -1.0
+    }
+}

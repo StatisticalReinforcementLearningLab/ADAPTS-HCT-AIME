@@ -1,0 +1,898 @@
+{
+  "MRT": [
+
+    {
+      "class": "MRT",
+      "parameters": {}
+    },
+    {
+      "class": "MRT",
+      "parameters": {}
+    },
+    {
+      "class": "MRT",
+      "parameters": {}
+    }
+  ],
+  "RLSVI_Inf_RwdNaive_NoPool_Sigm0.5_Lambd0.75": [
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": false,
+        "update": 5,
+        "reward_type": "naive",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": false,
+        "update": 5,
+        "reward_type": "naive",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 5,
+          "reward_type": "delayed0",
+          "sigma": 0.5,
+          "lambda_": 0.75,
+          "delayed_weight": 0.2
+        }
+      }
+  ],
+  "RLSVI_Inf_RwdMediator_NoPool_Sigm0.5_Lambd0.75": [
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": false,
+        "update": 5,
+        "reward_type": "mediator",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": false,
+        "update": 5,
+        "reward_type": "mediator",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 5,
+          "reward_type": "delayed",
+          "sigma": 0.5,
+          "lambda_": 0.75,
+          "delayed_weight": 0.2
+        }
+      }
+  ],
+
+  "RLSVI_Inf_RwdNaive_Pool_Sigm0.5_Lambd0.75": [
+
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "reward_type": "naive",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "reward_type": "naive",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 5,
+          "reward_type": "delayed0",
+          "sigma": 0.5,
+          "lambda_": 0.75,
+          "delayed_weight": 0.2
+        }
+      }
+  ],
+  "RLSVI_Inf_RwdMediator_Pool_Sigm0.5_Lambd0.75": [
+
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "reward_type": "mediator",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "reward_type": "mediator",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 5,
+          "reward_type": "delayed",
+          "sigma": 0.5,
+          "lambda_": 0.75,
+          "delayed_weight": 0.2
+        }
+      }
+  ],
+  "Bayes_RwdNaive_Pool_Sigm0.1_Lambd5_Prior5": [
+
+    {
+      "class": "Bayes",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 1,
+          "reward_type": "naive",
+          "sigma": 0.1,
+          "lambda_": 5,
+          "softmax": 10,
+          "prior_weight": 5
+        }
+      },
+    {
+      "class": "Bayes",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 1,
+          "reward_type": "naive",
+          "sigma": 0.1,
+          "lambda_": 5,
+          "softmax": 10,
+          "prior_weight": 5
+        }
+      },
+      {
+        "class": "Bandit",
+        "parameters": {
+            "poolAcrossDyads": true,
+            "update": 5,
+            "reward_type": "delayed0",
+            "sigma": 0.5,
+            "lambda_": 0.75,
+            "delayed_weight": 0.2
+          }
+        }
+  ],
+  "Bayes_RwdMediator_Pool_Sigm0.1_Lambd5_Prior5": [
+
+    {
+      "class": "Bayes",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 1,
+          "reward_type": "mediator",
+          "sigma": 0.1,
+          "lambda_": 5,
+          "softmax": 10,
+          "prior_weight": 5
+        }
+      },
+    {
+      "class": "Bayes",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 1,
+          "reward_type": "mediator",
+          "sigma": 0.1,
+          "lambda_": 5,
+          "softmax": 10,
+          "prior_weight": 5
+        }
+      },
+      {
+        "class": "Bandit",
+        "parameters": {
+            "poolAcrossDyads": true,
+            "update": 5,
+            "reward_type": "delayed",
+            "sigma": 0.5,
+            "lambda_": 0.75,
+            "delayed_weight": 0.2
+          }
+        }
+  ],
+  "RLSVI_Finite_RwdNaive_NoPool_Sigm0.5_Lambda0.75": [
+
+    {
+      "class": "RLSVIH",
+      "parameters": {
+        "poolAcrossDyads": false,
+        "update": 5,
+        "reward_type": "naive",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "RLSVIH",
+      "parameters": {
+        "poolAcrossDyads": false,
+        "update": 5,
+        "reward_type": "naive",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 5,
+          "reward_type": "delayed0",
+          "sigma": 0.5,
+          "lambda_": 0.75,
+          "delayed_weight": 0.2
+        }
+      }
+  ],
+  "RLSVI_Finite_RwdNaive_Pool_Sigm0.5_Lambda0.75": [
+
+    {
+      "class": "RLSVIH",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "reward_type": "naive",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "RLSVIH",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "reward_type": "naive",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 5,
+          "reward_type": "delayed0",
+          "sigma": 0.5,
+          "lambda_": 0.75,
+          "delayed_weight": 0.2
+        }
+      }
+  ],
+  "RLSVI_Finite_RwdMediator_NoPool_Sigm0.5_Lambda0.75": [
+
+    {
+      "class": "RLSVIH",
+      "parameters": {
+        "poolAcrossDyads": false,
+        "update": 5,
+        "reward_type": "mediator",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "RLSVIH",
+      "parameters": {
+        "poolAcrossDyads": false,
+        "update": 5,
+        "reward_type": "mediator",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 5,
+          "reward_type": "delayed",
+          "sigma": 0.5,
+          "lambda_": 0.75,
+          "delayed_weight": 0.2
+        }
+      }
+  ],
+  "RLSVI_Finite_RwdMediator_Pool_Sigm0.5_Lambda0.75": [
+
+    {
+      "class": "RLSVIH",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "reward_type": "mediator",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "RLSVIH",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "reward_type": "mediator",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 5,
+          "reward_type": "delayed",
+          "sigma": 0.5,
+          "lambda_": 0.75,
+          "delayed_weight": 0.2
+        }
+      }
+  ],
+  "Bandit_Delayed_RwdMediator_Pool_Sigm0.5_Lambda0.75": [
+
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "gamma": 0,
+        "update": 5,
+        "reward_type": "delayed",
+        "delayed_weight": 0.2,
+        "sigma": 0.5,
+        "lambda_": 0.75
+
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "gamma": 0,
+        "update": 5,
+        "reward_type": "delayed",
+        "delayed_weight": 0.2,
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 5,
+          "reward_type": "delayed",
+          "sigma": 0.5,
+          "lambda_": 0.75,
+          "delayed_weight": 0.2
+        }
+      }
+  ],
+  "Bandit_Delayed_RwdNaive_Pool_Sigm0.5_Lambda0.75": [
+
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "gamma": 0,
+        "update": 5,
+        "reward_type": "delayed0",
+        "delayed_weight": 0.2,
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "gamma": 0,
+        "update": 5,
+        "reward_type": "delayed0",
+        "delayed_weight": 0.2,
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 5,
+          "reward_type": "delayed0",
+          "sigma": 0.5,
+          "lambda_": 0.75,
+          "delayed_weight": 0.2
+        }
+      }
+  ],
+  "Bandit_Delayed_RwdNaive_NoPool_Sigm0.5_Lambda0.75": [
+
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": false,
+        "gamma": 0,
+        "update": 5,
+        "reward_type": "delayed0",
+        "delayed_weight": 0.2,
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+        "poolAcrossDyads": false,
+        "gamma": 0,
+        "update": 5,
+        "reward_type": "delayed0",
+        "delayed_weight": 0.2,
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "Bandit",
+      "parameters": {
+          "poolAcrossDyads": true,
+          "update": 5,
+          "reward_type": "delayed0",
+          "sigma": 0.5,
+          "lambda_": 0.75,
+          "delayed_weight": 0.2
+        }
+      }
+  ],
+"Bandit_Delayed_RwdMediator_NoPool_Sigm0.5_Lambda0.75": [
+  {
+    "class": "Bandit",
+    "parameters": {
+      "poolAcrossDyads": false,
+      "gamma": 0,
+      "update": 5,
+      "reward_type": "delayed",
+      "delayed_weight": 0.2,
+      "sigma": 0.5,
+      "lambda_": 0.75
+    }
+  },
+  {
+    "class": "Bandit",
+    "parameters": {
+      "poolAcrossDyads": false,
+      "gamma": 0,
+      "update": 5,
+      "reward_type": "delayed",
+      "delayed_weight": 0.2,
+      "sigma": 0.5,
+      "lambda_": 0.75
+    }
+  },
+  {
+    "class": "Bandit",
+    "parameters": {
+        "poolAcrossDyads": true,
+        "update": 5,
+        "reward_type": "delayed",
+        "sigma": 0.5,
+        "lambda_": 0.75,
+        "delayed_weight": 0.2
+      }
+    }
+],
+"SingleAgent_RwdNaive_Pool_Sigm0.5_Lambda0.75": [
+  {
+    "class": "SingleAgent",
+    "parameters": {
+      "update": 10,
+      "gamma": 0,
+      "poolAcrossDyads": true,
+      "reward_type": "naive",
+      "sigma": 0.5,
+      "lambda_": 0.75
+    }
+  },
+  {
+    "class": "SingleAgent",
+    "parameters": {
+      "update": 10,
+      "gamma": 0,
+      "poolAcrossDyads": true,
+      "reward_type": "naive",
+      "sigma": 0.5,
+      "lambda_": 0.75
+    }
+  },
+  {
+    "class": "SingleAgent",
+    "parameters": {
+      "update": 10,
+      "gamma": 0,
+      "poolAcrossDyads": true,
+      "reward_type": "delayed0",
+      "sigma": 0.5,
+      "lambda_": 0.75
+    }
+  }
+  ],
+  "SingleAgent_RwdNaive_NoPool_Sigm0.5_Lambda0.75": [
+    {
+      "class": "SingleAgent",
+      "parameters": {
+        "update": 10,
+        "gamma": 0,
+        "poolAcrossDyads": false,
+        "reward_type": "naive",
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+  },
+  {
+    "class": "SingleAgent",
+    "parameters": {
+      "update": 10,
+      "gamma": 0,
+      "poolAcrossDyads": false,
+      "reward_type": "naive",
+      "sigma": 0.5,
+      "lambda_": 0.75
+    }
+  },
+  {
+    "class": "SingleAgent",
+    "parameters": {
+      "update": 10,
+      "gamma": 0,
+      "poolAcrossDyads": true,
+      "reward_type": "delayed0",
+      "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    }
+  ],
+  "RewardLearning_RwdNaive_Pool_Sigm0.5_Lambda0.75": [
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "gamma": 0,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "gamma": 0,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    },
+    {
+      "class": "RewardLearning",
+      "parameters": {
+        "poolAcrossDyads": true,
+        "gamma": 0,
+        "update": 5,
+        "sigma": 0.5,
+        "lambda_": 0.75
+      }
+    }
+  ],
+  "MRT0.5": [
+    {
+      "class": "MRT",
+      "parameters": {
+        "p": 0.5
+      }
+    },
+    {
+      "class": "MRT",
+      "parameters": {
+        "p": 0.5
+      }
+    },
+    {
+      "class": "MRT",
+      "parameters": {
+        "p": 0.5
+      }
+    }
+  ],
+  "MRT0.6": [
+    {
+      "class": "MRT",
+      "parameters": {
+        "p": 0.6
+      }
+    },
+    {
+      "class": "MRT",
+      "parameters": {
+        "p": 0.6
+      }
+    },
+    {
+      "class": "MRT",
+      "parameters": {
+        "p": 0.6
+      }
+    }
+  ],
+  "MRT0.7": [
+    {
+      "class": "MRT",
+      "parameters": {
+        "p": 0.7
+      }
+    },
+    {
+      "class": "MRT",
+      "parameters": {
+        "p": 0.7
+      }
+    },
+    {
+      "class": "MRT",
+      "parameters": {
+        "p": 0.7
+      }
+    }
+  ],
+  "MRT0": [
+    {
+      "class": "MRT",
+      "parameters": {
+        "p": 0
+      }
+    },
+    {
+      "class": "MRT",
+      "parameters": {
+        "p": 0
+      }
+    },
+    {
+      "class": "MRT",
+      "parameters": {
+        "p": 0
+      }
+    }
+  ],
+  "MRT1": [
+    {
+      "class": "MRT",
+      "parameters": {
+        "p": 1
+      }
+    },
+    {
+      "class": "MRT",
+      "parameters": {
+        "p": 1
+      }
+    },
+    {
+      "class": "MRT",
+      "parameters": {
+        "p": 1
+      }
+    }
+  ],
+  "MRT0.8": [
+    {
+      "class": "MRT",
+      "parameters": {
+        "p": 0.8
+      }
+    },
+    {
+      "class": "MRT",
+      "parameters": {
+        "p": 0.8
+      }
+    },
+    {
+      "class": "MRT",
+      "parameters": {
+        "p": 0.8
+      }
+    }
+  ],
+  "MRT0.9": [
+    {
+      "class": "MRT",
+      "parameters": {
+        "p": 0.9
+      }
+    },
+    {
+      "class": "MRT",
+      "parameters": {
+        "p": 0.9
+      }
+    },
+    {
+      "class": "MRT",
+      "parameters": {
+        "p": 0.9
+      }
+    }
+  ],
+  "OptPolicy_SingleAgent_Gamma0":[
+    {
+        "class": "OptPolicy",
+        "parameters": {"rep":1, "optimal_policy": "singleagent", "single_agent_gamma": 0}
+    },
+    {
+        "class": "OptPolicy",
+        "parameters": {"rep":1, "optimal_policy": "singleagent", "single_agent_gamma": 0}
+    },
+    {
+        "class": "OptPolicy",
+        "parameters": {"rep":1, "optimal_policy": "singleagent", "single_agent_gamma": 0}
+    }
+],
+"OptPolicy_SingleAgent_Gamma0.2":[
+  {
+      "class": "OptPolicy",
+      "parameters": {"rep":1, "optimal_policy": "singleagent", "single_agent_gamma": 0.2}
+  },
+  {
+      "class": "OptPolicy",
+      "parameters": {"rep":1, "optimal_policy": "singleagent", "single_agent_gamma": 0.2}
+  },
+  {
+      "class": "OptPolicy",
+      "parameters": {"rep":1, "optimal_policy": "singleagent", "single_agent_gamma": 0.2}
+  }
+],
+"OptPolicy_SingleAgent_Gamma0.5":[
+  {
+      "class": "OptPolicy",
+      "parameters": {"rep":1, "optimal_policy": "singleagent", "single_agent_gamma": 0.5}
+  },
+  {
+      "class": "OptPolicy",
+      "parameters": {"rep":1, "optimal_policy": "singleagent", "single_agent_gamma": 0.5}
+  },
+  {
+      "class": "OptPolicy",
+      "parameters": {"rep":1, "optimal_policy": "singleagent", "single_agent_gamma": 0.5}
+  }
+],
+"OptPolicy_SingleAgent_Gamma0.9":[
+  {
+      "class": "OptPolicy",
+      "parameters": {"rep":1, "optimal_policy": "singleagent", "single_agent_gamma": 0.9}
+  },
+  {
+      "class": "OptPolicy",
+      "parameters": {"rep":1, "optimal_policy": "singleagent", "single_agent_gamma": 0.9}
+  },
+  {
+      "class": "OptPolicy",
+      "parameters": {"rep":1, "optimal_policy": "singleagent", "single_agent_gamma": 0.9}
+  }
+],
+"OptPolicy_OfflineValueIteration_OnlyFirstThreeFeatures": [
+  {
+      "class": "OptPolicy",
+      "parameters": {"rep":500, "optimal_policy": "only_first_three_features"}
+  },
+  {
+      "class": "OptPolicy",
+      "parameters": {"rep":500, "optimal_policy": "only_first_three_features"}
+  },
+  {
+      "class": "OptPolicy",
+      "parameters": {"rep":500, "optimal_policy": "only_first_three_features"}
+  }
+],
+"OptPolicy_OfflineValueIteration_OnlyFirstFiveFeatures_Rep1000": [
+  {
+      "class": "OptPolicy",
+      "parameters": {"rep":1000, "optimal_policy": "only_first_five_features"}
+  },
+  {
+      "class": "OptPolicy",
+      "parameters": {"rep":1000, "optimal_policy": "only_first_five_features"}
+  },
+  {
+      "class": "OptPolicy",
+      "parameters": {"rep":1000, "optimal_policy": "only_first_five_features"}
+  }
+],
+"OptPolicy_OfflineValueIteration_OnlyFirstSixFeatures_Rep1000": [
+  {
+      "class": "OptPolicy",
+      "parameters": {"rep":1000, "optimal_policy": "only_first_six_features"}
+  },
+  {
+      "class": "OptPolicy",
+      "parameters": {"rep":1000, "optimal_policy": "only_first_six_features"}
+  },
+  {
+      "class": "OptPolicy",
+      "parameters": {"rep":1000, "optimal_policy": "only_first_six_features"}
+  }
+],
+"OptPolicy_SingleAgent_Gamma0.9_5000":[
+  {
+      "class": "OptPolicy",
+      "parameters": {"rep":1, "optimal_policy": "singleagent", "single_agent_gamma": 0.9}
+  },
+  {
+      "class": "OptPolicy",
+      "parameters": {"rep":1, "optimal_policy": "singleagent", "single_agent_gamma": 0.9}
+  },
+  {
+      "class": "OptPolicy",
+      "parameters": {"rep":1, "optimal_policy": "singleagent", "single_agent_gamma": 0.9}
+  }
+],
+"OptPolicy_SingleAgent_Gamma0_5000":[
+  {
+      "class": "OptPolicy",
+      "parameters": {"rep":1, "optimal_policy": "singleagent", "single_agent_gamma": 0}
+  },
+  {
+      "class": "OptPolicy",
+      "parameters": {"rep":1, "optimal_policy": "singleagent", "single_agent_gamma": 0}
+  },
+  {
+      "class": "OptPolicy",
+      "parameters": {"rep":1, "optimal_policy": "singleagent", "single_agent_gamma": 0}
+  }
+],
+"OptPolicy_OfflineValueIteration_OnlyFirstFiveFeaturesrep1000": [
+  {
+      "class": "OptPolicy",
+      "parameters": {"rep":1000, "optimal_policy": "only_first_five_features"}
+  },
+  {
+      "class": "OptPolicy",
+      "parameters": {"rep":1000, "optimal_policy": "only_first_five_features"}
+  },
+  {
+      "class": "OptPolicy",
+      "parameters": {"rep":1000, "optimal_policy": "only_first_five_features"}
+  }
+]
+}

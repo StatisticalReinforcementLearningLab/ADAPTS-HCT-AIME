@@ -1,0 +1,177 @@
+{
+    "n": 25,
+    "rep": 1000,
+    "seed": 1,
+    "softmax_tem": 100,
+    "treatments": [
+        0.2,
+        0.2,
+        0.2,
+        0.2
+    ],
+    "mediator": 0.0,
+    "algs": {
+        "MRT": [
+            {
+                "class": "MRT",
+                "parameters": {}
+            },
+            {
+                "class": "MRT",
+                "parameters": {}
+            },
+            {
+                "class": "MRT",
+                "parameters": {}
+            }
+        ],
+        "SingleAgent_RwdNaive_Pool_Sigm0.5_Lambda0.75": [
+            {
+                "class": "SingleAgent",
+                "parameters": {
+                    "update": 10,
+                    "poolAcrossDyads": true,
+                    "reward_type": "naive",
+                    "sigma": 0.5,
+                    "lambda_": 0.75
+                }
+            },
+            {
+                "class": "SingleAgent",
+                "parameters": {
+                    "update": 10,
+                    "poolAcrossDyads": true,
+                    "reward_type": "naive",
+                    "sigma": 0.5,
+                    "lambda_": 0.75
+                }
+            },
+            {
+                "class": "SingleAgent",
+                "parameters": {
+                    "update": 10,
+                    "poolAcrossDyads": true,
+                    "reward_type": "delayed0",
+                    "sigma": 0.5,
+                    "lambda_": 0.75
+                }
+            }
+        ],
+        "RewardLearning": [
+            {
+                "class": "RewardLearning",
+                "parameters": {
+                    "poolAcrossDyads": true,
+                    "update": 5,
+                    "sigma": 0.5,
+                    "lambda_": 0.75,
+                    "rwd_lambda": 0.2,
+                    "gamma": 0.5,
+                    "save_coefficients": true
+                }
+            },
+            {
+                "class": "RewardLearning",
+                "parameters": {
+                    "poolAcrossDyads": true,
+                    "update": 5,
+                    "sigma": 0.5,
+                    "lambda_": 0.75,
+                    "rwd_lambda": 0.2,
+                    "gamma": 0.5,
+                    "use_prior": true,
+                    "save_param": false,
+                    "save_coefficients": true
+                }
+            },
+            {
+                "class": "RewardLearning",
+                "parameters": {
+                    "poolAcrossDyads": true,
+                    "update": 5,
+                    "sigma": 0.5,
+                    "lambda_": 0.75,
+                    "rwd_lambda": 0.2,
+                    "next_week_weight": 1,
+                    "use_prior": true,
+                    "save_param": false,
+                    "save_coefficients": true
+                }
+            }
+        ],
+        "RLSVI_Inf_Gamma_0.5": [
+            {
+                "class": "Bandit",
+                "parameters": {
+                    "poolAcrossDyads": true,
+                    "update": 5,
+                    "reward_type": "naive",
+                    "sigma": 0.5,
+                    "gamma": 0.5,
+                    "lambda_": 0.75
+                }
+            },
+            {
+                "class": "Bandit",
+                "parameters": {
+                    "poolAcrossDyads": true,
+                    "update": 5,
+                    "reward_type": "naive",
+                    "sigma": 0.5,
+                    "gamma": 0.5,
+                    "lambda_": 0.75
+                }
+            },
+            {
+                "class": "Bandit",
+                "parameters": {
+                    "poolAcrossDyads": true,
+                    "update": 5,
+                    "reward_type": "delayed0",
+                    "sigma": 0.5,
+                    "lambda_": 0.75,
+                    "delayed_weight": 0.2
+                }
+            }
+        ],
+        "RewardLearningNewCare": [
+            {
+                "class": "RewardLearningNewCare",
+                "parameters": {
+                    "poolAcrossDyads": true,
+                    "update": 5,
+                    "sigma": 0.5,
+                    "lambda_": 0.75,
+                    "rwd_lambda": 0.2,
+                    "gamma": 0.5
+                }
+            },
+            {
+                "class": "RewardLearningNewCare",
+                "parameters": {
+                    "poolAcrossDyads": true,
+                    "update": 5,
+                    "sigma": 0.5,
+                    "lambda_": 0.75,
+                    "rwd_lambda": 0.2,
+                    "gamma": 0.5,
+                    "use_prior": true,
+                    "save_param": false
+                }
+            },
+            {
+                "class": "RewardLearningNewCare",
+                "parameters": {
+                    "poolAcrossDyads": true,
+                    "update": 5,
+                    "sigma": 0.5,
+                    "lambda_": 0.75,
+                    "rwd_lambda": 0.2,
+                    "next_week_weight": 1,
+                    "use_prior": true,
+                    "save_param": false
+                }
+            }
+        ]
+    }
+}
