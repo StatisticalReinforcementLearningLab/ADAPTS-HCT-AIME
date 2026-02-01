@@ -12,3 +12,5 @@ The structure of the repository is as follows:
 6. `Opt_Policy/` contains the pickle files for the optimal policy approximation run under different environments.
 
 **Each of the directories [`Code/`](https://github.com/StatisticalReinforcementLearningLab/ADAPTS-HCT-RL-Algorithm-Design/tree/submission/Code#code), [`Experiment_Test_Algs/`](https://github.com/StatisticalReinforcementLearningLab/ADAPTS-HCT-AIME), [`Experiment_Tune_Ctreat/`](https://github.com/StatisticalReinforcementLearningLab/ADAPTS-HCT-AIME/tree/main/Experiment_Tune_Ctreat), and [`Experiment_Test_Opt_Policy/`](https://github.com/StatisticalReinforcementLearningLab/ADAPTS-HCT-AIME/tree/main/Experiment_Test_Opt_Policy) contains further detail on the code structure and running instructions.**
+
+ROADMAP Dataset was used to fit the simulator models in the project. The dataset is available for download [here](https://deepblue.lib.umich.edu/data/concern/data_sets/ht24wk394?locale=en). 
